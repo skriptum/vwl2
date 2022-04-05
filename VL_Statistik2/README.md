@@ -1,0 +1,9 @@
+# Statistik II
+
+- Professorin: Claudia Becker
+- Zeiten: 
+	- Vorlesung in "Häppchen" online
+	- montags 10:00 - 12:00 Übung
+- [StudIP](https://studip.uni-halle.de/dispatch.php/course/details?sem_id=ebeda87420748f97f36d62dace526f0f)
+
+## Themen
