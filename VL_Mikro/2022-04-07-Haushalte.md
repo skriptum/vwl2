@@ -121,3 +121,21 @@ $$
 \frac{ \frac{\partial U}{ \partial x_1}}{p_1} = 
 \frac{ \frac{\partial U}{ \partial x_2}}{p_2}
 $$
+
+## Beispiel aus Skript
+
+ein Haushalt mit
+
+- Budgetgerade $12 = 3 x + 2y$
+- Nutzenfunktion $U = x^2 y^2$
+
+Berechnung der MRS
+$$
+\to MU_x = 2x y^2 \\
+\to MU_y = x^2 2y \\
+MRS = \frac{MU_x}{MU_y} = \frac{2x y^2}{2x^2 y} \xrightarrow{kuerzen} \frac{y}{x}
+$$
+Berechnung der MRT: $-\frac{p_1}{p_2} = - \frac{3}{2}$
+
+
+
