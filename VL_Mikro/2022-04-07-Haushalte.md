@@ -69,7 +69,7 @@ $$
 \frac{d x_2}{d x_1} = - \frac{\frac{\partial U}{ \partial x_1}}{\frac{\partial U}{ \partial x_2}} = | MRS |
 $$
 
-> **MRS**: *Marginal Rate of Substitution:* Austauschrate / relativer Preis zwischen zwei Gütern
+> **MRS**: *Marginal Rate of Substitution:* subjektive Substitutionswollen eines Haushalts (wieviel ist er bereit aufzugeben für ein Gut)
 
 Darstellung als Indifferenzkurven
 
@@ -78,3 +78,46 @@ Darstellung als Indifferenzkurven
 - beschreibt mögliche Güterkombinationen zwischen zwei Gütern
 - auf einer Kurve = indiffernt gegenüber Kombination
 - unter der Kurve = weniger Nutzen 
+
+
+
+## Budgetgerade
+
+Möglichkeitenraum, den ein Haushalt aufgrund seines Budgets hat
+
+Formel: $B = p_1 x_1 + p_2 x_2 $
+
+
+$$
+\text{Budgetgleichung: } B = p_1 x_1 + p_2 x_2  \\
+\text{Steigung: } \frac{d x_2}{d x_1} = - \frac{p_1}{p_2} = | MRT |
+$$
+
+> **MRT:** *Marginal Rate of Transformation:* objektives Substitutionskönnen des Haushalts über Preise
+
+![2022-04-07_14.38.49](../images/2022-04-07_14.38.49.jpg)
+
+## Haushaltsgleichgewicht
+
+Zusammenfügen beider Kurven
+
+![ 2022-04-07 at 14.42.06](../images/ 2022-04-07 at 14.42.06.jpg)
+
+- $Z_1 \neq$  optimal, da nicht auf *B*
+- $Z_2 \neq$ optimal, da weniger Nutzen als $Z_3$
+- $Z_3 =$ optimal , da maximaler Nutzen und auf Budgetgerade
+
+Wenn  $|MRT| = |MRS| \implies$ **optimal**
+$$
+\text{Formeln} \\
+|MRS| = \frac{d x_2}{d x_1} \bigg|_U = 
+- \frac{\frac{\partial U}{ \partial x_1}}{\frac{\partial U}{ \partial x_2}}  \gets  \text{subjektive Opport. Kost.}\\
+
+|MRT| = \frac{d x_2}{d x_1} \bigg|_B =
+- \frac{p_1}{p_2} 
+\gets  \text{objektive Opport. Kost.} \\
+
+\text{umgeschrieben: } 
+\frac{ \frac{\partial U}{ \partial x_1}}{p_1} = 
+\frac{ \frac{\partial U}{ \partial x_2}}{p_2}
+$$
