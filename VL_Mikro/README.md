@@ -6,3 +6,11 @@
     - Montags 14:15 - 15:45 Übung I
 - [StudIP](https://studip.uni-halle.de/dispatch.php/course/details?sem_id=8f1b6a567146a3dc5e426d1abd87d2fd)
 
+
+
+## Klausur
+
+- Online-Exam 
+- Multiple Choice
+- 100 Punkte
+- 90 Minuten
