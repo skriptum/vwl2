@@ -12,6 +12,7 @@
 - Mikroökonomik
     - [Einfuehrung](VL_Mikro/2022-04-06-Einfuehrung.md)
     - [Haushalte](VL_Mikro/2022-04-07-Haushalte.md)
+    - [Schocks](VL_Mikro/2022-04-07-Schocks.md)
     - [Übersicht](VL_Mikro/README.md)
 
 - Mathematik II
