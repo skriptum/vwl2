@@ -78,6 +78,7 @@ Darstellung als Indifferenzkurven
 - beschreibt mögliche Güterkombinationen zwischen zwei Gütern
 - auf einer Kurve = indiffernt gegenüber Kombination
 - unter der Kurve = weniger Nutzen 
+- Nicht gerade wegen Grenznutzen
 
 
 
