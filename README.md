@@ -16,10 +16,10 @@ für Notizen von Modulen aus dem **erstem** Semester: [hier entlang](https://skr
 
 ## Online-Aufgaben
 
-- [ ] Statistik - Videos ([StudIP](https://studip.uni-halle.de/dispatch.php/course/files/index/a78a0d6894767c48d192a2f142b4b596?cid=ebeda87420748f97f36d62dace526f0f))
+- [x] Statistik - Videos ([StudIP](https://studip.uni-halle.de/dispatch.php/course/files/index/a78a0d6894767c48d192a2f142b4b596?cid=ebeda87420748f97f36d62dace526f0f))
 - [ ] Wissenschaftliches Arbeiten - Vorlesung Aufzeichnungen ([ILIAS](https://ilias.uni-halle.de/ilias.php?cmd=render&cmdClass=ilrepositorygui&baseClass=ilRepositoryGUI&ref_id=244788&rtoken=273f22954002bcac30ac9816a61b92bc))
 - [x] Öffentliches Recht - Inputs ([OpenCast](https://studip.uni-halle.de/plugins.php/opencast/course/index?cid=aa32e8f8b04104e6b8ab07bf07a2f897))
-- [ ] MIkroökonomik Vorlesung [OpenCast](https://studip.uni-halle.de/plugins.php/opencast/course/index/false?cid=8f1b6a567146a3dc5e426d1abd87d2fd)
+- [x] MIkroökonomik Vorlesung [OpenCast](https://studip.uni-halle.de/plugins.php/opencast/course/index/false?cid=8f1b6a567146a3dc5e426d1abd87d2fd)
 
 
 
