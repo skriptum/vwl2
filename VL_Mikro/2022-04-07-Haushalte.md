@@ -140,3 +140,100 @@ Berechnung der MRT: $-\frac{p_1}{p_2} = - \frac{3}{2}$
 
 
 
+## Übung: Haushaltsentscheidungen
+
+### Aufgabe 1
+
+Nutzenfunktion: $U(x_1, x_2) = x_1^{0,5}, x_2^{0,5} $
+
+Güterbündel: (und dazugehöriger Nutzen)
+
+- (4,4) -> u = 4
+- (8,2) -> u = 4
+- (2,8) -> u = 4
+- (6,6) -> u = 6
+- (4,9) -> u = 6
+- (12,3) -> u= 6
+
+=> zwei Indiffierenzkurven
+$$
+\text{allgemeine Form: } U = x_1^{0,5}, x_2^{0,5} \\
+\to x_2 = \frac{U^2}{x_1} \\
+\text{für u=4: } x_2 = \frac{16}{x_1} \\
+\text{für u=6: } x_2 = \frac{36}{x_1} \\
+$$
+MRS berechnen: 
+
+![2022-04-25_15.29.16](../images/2022-04-25_15.29.16.jpg)
+
+Graphische Darstellung:
+
+![2022-04-25_14.27.32](../images/2022-04-25_14.27.32.jpg)
+
+Steigung der Kurven durch **Ableitung:** $\frac{x_2}{x_1}$
+
+
+
+### Lagrange Ansatz (2c)
+
+- Nutzenfunktion: $U = x_1^{0,5}* x_2^{0,5} $
+- Budgetrestriktion:  $x_1 + 4x_2 = 24$
+
+Maximierungsproblem:
+$$
+max U = max(x_1^{0,5}* x_2^{0,5}) \\
+s.t \\
+p_1 x_1+p_2 x_2 = B
+$$
+
+#### 1: Lagrangefunktion: (mit jeweiligen 3 Ableitungen)
+
+$$
+L = x_1^{0,5}* x_2^{0,5} + \lambda * [B- p_1*x_1 - p_2 *x_2] \\ 
+
+\to \frac{\partial L}{\partial x_1} = 
+x_1^{-0,5}* x_2^{0,5} - \lambda p_1 = 0
+\\
+\to \frac{\partial L}{\partial x_2} = 
+x_1^{0,5}* x_2^{-0,5} - \lambda p_2 = 0 
+\\
+\to \frac{\partial L}{\partial \lambda} = B- p_1*x_1 - p_2 *x_2
+$$
+
+**merke:** erst aufstellen, dann einsetzen!
+
+#### 2: Umstellen der ersten beiden Ableitungen
+
+$$
+x_1^{-0,5}* x_2^{0,5} - \lambda p_2 = 0  \to  \lambda =\frac{0,5x_2^{-0,5} }{p_1} \\
+x_1^{0,5}* x_2^{-0,5} - \lambda p_2 = 0  \to \lambda =\frac{0,5x_1^{-0,5} }{p_2}
+$$
+
+#### 3: Gleichsetzen
+
+$$
+x_2 = \frac{p_1}{p_2} x_1
+$$
+
+#### 4: Einsetzen in dritte Gleichung
+
+$$
+B - p_1 x_1 - p_2 \mathbf{\frac{p_1}{p_2} x_1} = 0 \\
+B = 2 * p_1 x_1
+$$
+
+#### 5: optimales Güterbündel
+
+umstellen des Letzen
+$$
+\to x_1^* = \frac{B}{2p_1} \\
+\to x_2^* = \frac{B}{2p_2}
+$$
+und dann Einsetzen der konkreten Werte
+$$
+x_1^* = \frac{B}{2p_1} \to \frac{24}{2} = 12 \\
+x_2^* = \frac{B}{2p_2} \to\frac{24}{8} = 3
+$$
+**das optimale Bündel ist (12,3)**
+
+![2022-04-25_15.24.04](../images/2022-04-25_15.24.04.jpg)
