@@ -1,11 +1,13 @@
 - [Startseite](README.md)
 - Wissenschaftliches Arbeiten
-    - [Textsorten](VL_WissArbeit/2022-04-26-Textsorten.md)
+    - [Einführung](VL_WissArbeit/2022-04-14-Einführung.md)
+    - [Themenfindung](VL_WissArbeit/2022-04-22-Themenfindung.md)
     - [Übersicht](VL_WissArbeit/README.md)
 
 - Recht für WiWi
     - [Einfuehrung](VL_Recht-WiWi/2022-04-03-Einfuehrung.md)
     - [Rechtsgebiete](VL_Recht-WiWi/2022-04-15-Rechtsgebiete.md)
+    - [Subsumtion](VL_Recht-WiWi/2022-04-22-Subsumtion.md)
     - [Übersicht](VL_Recht-WiWi/README.md)
 
 - Stadtökonomie (Leipzig)
@@ -18,6 +20,7 @@
     - [Haushalte](VL_Mikro/2022-04-07-Haushalte.md)
     - [Effekte](VL_Mikro/2022-04-14-Effekte.md)
     - [Unternehmen](VL_Mikro/2022-04-22-Unternehmen.md)
+    - [Unternehmen2](VL_Mikro/2022-04-27-Unternehmen2.md)
     - [Übersicht](VL_Mikro/README.md)
 
 - Mathematik II

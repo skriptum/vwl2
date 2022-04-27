@@ -1,4 +1,4 @@
-# 27.04.2022 Kurz und Langfristiges Angebot
+# 27.04.2022 Kurz- und Langfristiges Angebot
 
 ## Kostenkurve
 
@@ -60,3 +60,44 @@ langfristig:
 
 
 ![2022-04-27_19.20.25](../images/2022-04-27_19.20.25.jpg)
+
+## Marktangebot
+
+### Kurzfristig
+
+![2022-04-27_20.15.24](../images/2022-04-27_20.15.24-1083405.jpg)
+
+- kein Markteintritt / Austritt möglich (konstante Firmenanzahl)
+- Annahme perfekten Wettbewerbs
+- steigende Preise -> steigende Produktion aufgrund steigender Grenzkosten
+
+### Langfristig
+
+![2022-04-27_20.17.13](../images/2022-04-27_20.17.13.jpg)
+
+- Gewinne und Verluste führen zu Markteintritt / Austritt
+    - Gewinn langfristig 0
+- Annahme konstanter Skalenerträge
+    - keine Economies of Scale
+
+## Produzentenrente
+
+analog zu Konsumentenrente
+
+> **Produzentenrente:** Summe der Erlöse, die die Grenzkosten der Unternehmen übersteigt
+
+![2022-04-27_20.27.31](../images/2022-04-27_20.27.31.jpg)
+
+unterscheidet sich kurzfristig und langfristig (geringer)
+
+## Angebotselastizität
+
+analog zu Nachfrageelastizität: 
+$$
+\epsilon_{x,p}  = \frac{\Delta x \%}{\Delta p \%}  = \frac{ \frac{\Delta x}{x} }{\frac{\Delta p}{p}}
+$$
+
+- langfristiges Angebot ist immer elastischer als kurzfristiges
+- aufgrund Anpassungsreaktionen der Unternehmen
+
+![2022-04-27_20.39.48](../images/2022-04-27_20.39.48.jpg)
