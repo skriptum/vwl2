@@ -1,6 +1,3 @@
-
-
-
 # 15.04.2022 Wahrscheinlichkeit
 
 ## Bedingte Wahrscheinlichkeit

@@ -205,8 +205,8 @@ $$
 #### 2: Umstellen der ersten beiden Ableitungen
 
 $$
-x_1^{-0,5}* x_2^{0,5} - \lambda p_2 = 0  \to  \lambda =\frac{0,5x_2^{-0,5} }{p_1} \\
-x_1^{0,5}* x_2^{-0,5} - \lambda p_2 = 0  \to \lambda =\frac{0,5x_1^{-0,5} }{p_2}
+x_1^{-0,5}* x_2^{0,5} - \lambda p_1 = 0  \to  \lambda =\frac{0,5x_2^{0,5} }{p_1 x_1^{0,5}} \\
+x_1^{0,5}* x_2^{-0,5} - \lambda p_2 = 0  \to \lambda =\frac{0,5x_1^{0,5} }{p_2 x_2^{0,5}}
 $$
 
 #### 3: Gleichsetzen

@@ -4,10 +4,11 @@ Gegenseite zur Haushalte und Nachfrage: **Unternehmen** und **Angebot**
 
 Annahmen:
 - Kosten *C*
-- Inputs/Faktoren $r_1,r_2$ mit Preisen $q_1,q_2$
+- Inputs/Faktoren $r_1,r_2$ mit Preisen $q_1,q_2$, oft:
+    - $r_1$ = Arbeit mit Lohn $q_1$
+    - $r_2$ = Kapital mit Zins $q_2$
+
 - Maximierung von Gewinn *G*
-
-
 
 ## Isoquantenfunktion
 
@@ -35,9 +36,9 @@ $$
 = MRTS \text{ (Marginal Rate of Technical Subst.)}
 $$
 
+hier sind das die Opportunitätskosten von $r_1$ (eine Einheit mehr von $r_1$, wieiviel Verzicht auf $r_2$)
+
 > **MRTS:** Grenzrate der technischen Substitution, beschreibt technisches Substitutionskönnen des Unternehmens
-
-
 
 ## Isokostengerade
 
@@ -47,8 +48,6 @@ Kostenfunktion eines Unternehmens: $C = q_1 * r_1 + q_2 * r_2$
 Darstellung mit *Isokostengerade*: ![2022-04-22_21.01.02](../images/2022-04-22_21.01.02.jpg)
 
 > **MRMS:** (Marginal Rate of Market Substitution) das Preisverhältnis zweier Güter
-
-
 
 ## Produktionsgleichgewicht
 
@@ -63,8 +62,21 @@ $$
 
 - der hintere Summand ist bei rationalen Unternehmen 0
     - alles Geld wird verwendet für Faktoren
-- $\lambda$ = Grenznutzen des Geldes
+- $\lambda$ = Grenznutzen des Geldes 
     - wieviel mehr *x* wenn *C* um 1 Euro erhöht wird
+    - = erste  Ableitung der Zielfunktion $\frac{\partial x}{\partial C}$
+
+Ableitung der Lagrange Funktion
+$$
+\to \frac{\partial L}{\partial r_1} = 
+\frac{\partial x}{\partial r_1} - \lambda*q_1 = 0
+\\
+\to \frac{\partial L}{\partial r_2} = 
+\frac{\partial x}{\partial r_2} - \lambda*q_2 = 0
+\\
+\to \frac{\partial L}{\partial \lambda} = C- r_1*q_1 - r_2 *q_2
+$$
+
 
 ### Exkurs marginale Zahlungsbereitschaft
 
