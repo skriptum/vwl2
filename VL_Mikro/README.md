@@ -10,6 +10,7 @@
 
 ## Klausur
 
+- 22.07.22 08:15
 - Online-Exam 
 - Multiple Choice
 - 100 Punkte

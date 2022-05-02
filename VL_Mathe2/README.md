@@ -13,4 +13,9 @@
 1. Funktionen mit einer Variable
 2. Funktionen mit mehreren Variablen
 
+## Klausur
 
+- Termin: 18.07.22
+- 08:15
+- 90 Minuten
+- Online 

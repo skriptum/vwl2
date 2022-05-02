@@ -10,6 +10,7 @@
 
 ## Klausur
 
+- 20.07.22
 - einstündig
 - Single-Choice-Frage
 - ~25 Fragen

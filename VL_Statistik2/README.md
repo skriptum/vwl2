@@ -6,4 +6,8 @@
 	- montags 10:00 - 12:00 Übung
 - [StudIP](https://studip.uni-halle.de/dispatch.php/course/details?sem_id=ebeda87420748f97f36d62dace526f0f)
 
-## Themen
+## Klausur
+
+- 27.07.22 08:15
+- 90 Minuten
+- 
