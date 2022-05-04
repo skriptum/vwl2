@@ -17,7 +17,8 @@ daraus -> Durchschnittskosten / Einheit = $\frac{C}{x} = \frac{C_v}{x} + \frac{C
 ![2022-04-27_17.01.30](../images/2022-04-27_17.01.30.jpg)
 - *AFC* und *AVC* = *ATC*-Kurve
 - Minimum der *AVC* = links von Minimum der *ATC*
-- wo *MC* < *ATC* hat diese negative Steigung
+- wo *MC* < *ATC* hat letztere negative Steigung
+- *MC* schneider *AVC* und *ATC* an deren Minimum (denknotwendig!)
 
 Beispielhafte math. Betrachtung: (bei kubischer Gleichung)
 $$
