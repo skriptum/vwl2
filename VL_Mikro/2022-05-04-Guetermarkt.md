@@ -89,3 +89,4 @@ Stücksubventionen für die Anbieter => Verschiebung der Nachfragekurve
 
 ### Preisfestsetzungen
 
+1:08:33 Zeit
