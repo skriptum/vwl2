@@ -2,12 +2,14 @@
 - Wissenschaftliches Arbeiten
     - [Einführung](VL_WissArbeit/2022-04-14-Einführung.md)
     - [Themenfindung](VL_WissArbeit/2022-04-22-Themenfindung.md)
+    - [Organisation](VL_WissArbeit/2022-05-01-Organisation.md)
     - [Übersicht](VL_WissArbeit/README.md)
 
 - Recht für WiWi
     - [Einfuehrung](VL_Recht-WiWi/2022-04-03-Einfuehrung.md)
     - [Rechtsgebiete](VL_Recht-WiWi/2022-04-15-Rechtsgebiete.md)
     - [Subsumtion](VL_Recht-WiWi/2022-04-22-Subsumtion.md)
+    - [Mehrebenensystem](VL_Recht-WiWi/2022-05-04-Mehrebenensystem.md)
     - [Übersicht](VL_Recht-WiWi/README.md)
 
 - Stadtökonomie (Leipzig)
@@ -21,6 +23,9 @@
     - [Effekte](VL_Mikro/2022-04-14-Effekte.md)
     - [Unternehmen](VL_Mikro/2022-04-22-Unternehmen.md)
     - [Unternehmen2](VL_Mikro/2022-04-27-Unternehmen2.md)
+    - [Guetermarkt](VL_Mikro/2022-05-04-Guetermarkt.md)
+    - [Arbeitsmarkt](VL_Mikro/2022-05-05-Arbeitsmarkt.md)
+    - [Kapitalmarkt](VL_Mikro/2022-05-15-Kapitalmarkt.md)
     - [Übersicht](VL_Mikro/README.md)
 
 - Mathematik II
