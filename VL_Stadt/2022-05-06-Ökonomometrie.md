@@ -117,3 +117,22 @@ meist trechenintensiver
 
 ### natürliches Experiment
 
+Beispielfrage: *Einluss des Baus einer Müllverbrennungsanlage auf die Immobilienpreise*
+
+Betrachtung einer:
+
+- **Treatment-Gruppe**: Stadtviertel mit Anlage (near = *nr*)
+- **Kontroll-Gruppe:** Stadtviertel ohne Anlage (far = *fr*)
+
+Differenzen:
+
+- *Differenzen der Gruppen*: Unterschiede in Immobilienpreisen in beiden Stadtvierteln
+- *Differenz der Zeitperioden:* Wachstum der Immobilienpreise beider Stadtviertel von t=0 ohne Anlage zu t=1 mit Anlage
+
+für Analyse: Unterschiede im Wachstum zwischen beiden Stadtvierteln (**Difference-in-Difference**)
+
+Diff-in-Diff: 
+$$
+\bar\delta_1 = (price_{i,nr} - price_{1.fr}) - (price_{0,nr} - price_{0,fr})
+$$
+Herausforderung in der Praxis: gute Gruppen finden
