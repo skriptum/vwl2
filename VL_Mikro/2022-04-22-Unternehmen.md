@@ -113,3 +113,157 @@ nach Einsetzen der Erlösfunktion $p = \frac{\partial C}{\partial x}$
 
 
  
+
+## Übung 
+
+### Isoquante
+
+Beispiel-Produktionsfunktion $x (L,K) = L^{0,5} K^{0,5}$
+
+Punkte:
+
+1. (2,8)
+2. (3,12)
+3. (8,2)
+4. (12,3)
+
+---
+
+Nutzen der Punkte (Einsetzen in *x*)
+
+1. x = 4
+2. x= 6
+3. x = 4
+4. x = 6
+
+---
+
+Gleichung der Isoquanten hier: $K = \frac{x^2}{L}$
+
+- Erste Outputfunktion x= 6  $\to \frac{36}{L}$
+- x = 4 $\to \frac{16}{L}$
+
+![2022-05-09_14.50.27](../images/2022-05-09_14.50.27.jpg)
+
+---
+
+Grenzproduktivitäten:
+
+- der Arbeit: $MP_L = \frac{\partial x}{\partial L} = \frac{1}{2} \sqrt{\frac{K}{L}}$
+- des Kapitals: $MP_K = \frac{\partial x}{\partial K} = \frac{1}{2} \sqrt{\frac{L}{K}}$
+
+---
+Steigung der Isoquante
+$$
+Funktion: K = \frac{x^2}{L} \\
+Ableitung: \frac{\partial K}{\partial L} = - \frac{x^2}{L^2}
+$$
+
+die Ableitung ist die Steigung der Isoquante = MRTS
+
+---
+
+Effekt von gestiegener Arbeitsproduktivität:
+
+Marginal Rate of Market Substituions: (andere Formel) $MRTS = \frac{MP_L}{MP_K} = -\frac{\frac{\partial x}{\partial L}}{\frac{\partial x}{\partial K}} $
+$$
+Effekt: MRTS \uparrow= \frac{MP_L \uparrow}{MP_K}
+$$
+= größere Steigung = steilerer Anstieg der Isoquante
+
+![2022-05-09_15.00.59](../images/2022-05-09_15.00.59.jpg)
+
+analog Steigung der Produktivität des Kapitals: $Effekt: MRTS \downarrow= \frac{MP_L}{MP_K \uparrow}$
+
+![2022-05-09_15.03.52](../images/2022-05-09_15.03.52.jpg)
+
+### Isokosten
+
+- Kostenfunktion generell: $C = wL+qK$ 
+    - bei *w = 4*, *q=1* und *C = 16*   
+    - $16 = 4L + K$
+- Funktionsumstellung: $K = -\frac{w}{q}L+\frac{C}{q}$
+    - $K = -4L + 16$
+
+Schnittpunkte:
+
+- Ordinate: $\frac{C}{q} = 16$
+- Abszisse: $\frac{C}{w} = 4$
+
+Steigung der Kostenfunktion = $\frac{\partial K}{\partial L} = \big|-\frac{w}{q} \big| = \frac{w}{q}$
+
+- Hier: *-4* (Kosten der Arbeit in Einheiten von Kapital)
+- Ist MRMS (Marginal Rate of Market Subst.)
+
+Graphisch: (mit noch anderen Kostenniveau)
+
+![2022-05-09_15.09.20](../images/2022-05-09_15.09.20.jpg)
+
+### Kostenminimum mit Lagrange-Funktion
+
+Kostenminimum analytisch!
+
+#### 1: Aufstellen des Optimierungsproblems
+
+$$
+min_{L,K} \ C = min(wL+qK) \\
+s.t \\
+L^{0,5} K^{0,5} = x
+$$
+
+#### 2: Aufstellen der Lagrange Funktion
+
+$$
+LF = (wL+qK)+\lambda(x-L^{0,5}K^{0,5})
+$$
+
+#### 3: Ableiten der Lagrange Funktion (nach $L,K, \lambda$ )
+
+$$
+\frac{\partial LF}{\partial L} &= w- \lambda \frac{K^{0,5}}{2L^{0,5}} = 0 \\
+\frac{\partial LF}{\partial K} &= q- \lambda \frac{L^{0,5}}{2K^{0,5}} = 0 \\
+\frac{\partial LF}{\partial \lambda} &= x- L^{0,5}K^{0,5} = 0
+$$
+
+#### 4: Lösen des LGS 
+
+- Auflösen der ersten und zweiten nach Lambda
+
+$$
+\frac{\partial LF}{\partial L} \implies \lambda = 2w \frac{L^{0,5}}{K^{0,5}} \\
+
+\frac{\partial LF}{\partial K} \implies \lambda = 2q \frac{K^{0,5}}{L^{0,5}}
+$$
+
+- Gleichsetzen und auflösen nach Menge Arbeit
+
+$$
+2w \frac{L^{0,5}}{K^{0,5}} = 2q \frac{K^{0,5}}{L^{0,5}} \\
+L = \frac{q}{w} K
+$$
+- Einsetzen in dritte Gleichung
+
+$$
+x - \bigg(\frac{q}{w}K \bigg)^{0,5}K^{0,5} = 0 \\
+K = x \bigg( \frac{w}{q}\bigg)^{0,5}
+$$
+
+*= kostenminimaler Einsatz von Kapital*
+
+- Einsetzen davon in Restriktion
+
+$$
+L = x \bigg( \frac{q}{w} \bigg)^{0,5}
+$$
+
+*= kostenminimaler Einsatz von Arbeit*
+
+
+
+- Bestimmung des Optimums für Output *x=4*
+
+![2022-05-09_15.29.42](../images/2022-05-09_15.29.42.jpg)
+
+### Kostenmimimum graphisch
+
+im Mimimum: $\frac{MP_L}{MP_K} = MRTS = MRMS = \frac{w}{q}$

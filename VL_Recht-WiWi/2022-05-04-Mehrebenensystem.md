@@ -54,8 +54,10 @@ Allgemeine Ausnahmen in Art XX:
 
 mehrere Normen regeln denselben Sachverhalt
 
-- widersprechende Norm ist nicht automatisch unwirksam, nur **nicht angewendet**
+- Untergeordnete Norm ist nicht automatisch unwirksam, nur **nicht angewendet**
 - bspw. Unionsrecht vor nationalem Recht
+- oder das speziellere Recht vor allgemeinerem Recht
+    - *lex specialis derogat lex generali*
 
 ### Geltungsvorrang
 
@@ -69,3 +71,31 @@ mehrere Normen regeln denselben Sachverhalt
 
 - **formelles**: Gesetze aus förmlichen Gesetzgebungsverfahren der Legislative
 - **Materielles** Gesetz: allgemeine Rechtsnorm, beispielsweise VO der Exekutive
+
+
+
+## Übung Mehrebenensystem
+
+richtige Reihenfolge 
+
+1. Art 79. GG
+2. Primäres Europarecht: EUV,AEUV
+3. Grundgesetz
+4. Formelle Gesetze des Bundes, Sekundärrecht EU, transformiertes Völkerrecht
+5. VO des Bundes
+6. Verfassung der Länder
+7. formelle Gesetze der Länder
+8. VO der Länder
+9. Satzung der Länder / Seöbsverwaltungsträger
+
+
+
+Beispielhierarchie
+
+1. AUEV
+2. Art. 5 GG
+3. IFsG
+4. Verfassung LSA
+5. CoronaVO LSA
+6. Bebauungsplan Stadt Halle
+
