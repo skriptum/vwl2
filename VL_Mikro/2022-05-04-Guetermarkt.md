@@ -13,6 +13,10 @@ Der Gütermarkt:
 
 bestehend aus Nachfrage und Angebotskurve
 
+Nachfrage nach oben = Änderung des Einkommens = marginale Zahlungsbereitschaft Änderung
+
+Nachfrage nach rechts = neue Nachfrager
+
 ## Kurvenbewegungen
 
 ![2022-05-04_09.36.15](../images/2022-05-04_09.36.15.jpg)
@@ -29,6 +33,14 @@ Verschiebungen = $\leftarrow, \rightarrow,\uparrow, \downarrow$
 Veränderungen des Preises = entlang der Nachfragekurve
 
 *analog für Angebotskurve*
+
+- mehr Anbieter $S \rightarrow$
+- Höhere Faktorkosten/Grenzkosten $S \uparrow$
+    - da angebot abhängig von MC und die sich automatisch anheben
+- weniger Anbieter $S \leftarrow$
+- sinkende Grenzkosten $S \downarrow$
+
+
 
 ## Schocks
 
@@ -70,7 +82,7 @@ Verteilung der Steuerlast
     - Unternehmen tragen Steuer vollständig
 - **langfristig passen Unternehmen sich an!** und Verbraucher tragen Kosten immer
 
-
+=> die unelastischere Seite trägt die Hauptlast 
 
 > **beachte:** wichtig ist die Verwendung des Steueraufkommens. Wenn es für Finanzierung öffentlicher Güter genutzt wird, kann es schlussendlich zu positiven Netto-Wohlfahrtseffekten führen.
 
