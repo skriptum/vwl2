@@ -101,4 +101,28 @@ Stücksubventionen für die Anbieter => Verschiebung der Nachfragekurve
 
 ### Preisfestsetzungen
 
-1:08:33 Zeit
+- Höchstpreis unter Marktpreis = Nachfrageüberschuss
+- Mindestpreis über Marktpreis = Angebotsüberschuss
+
+![2022-05-12_13.50.01](../images/2022-05-12_13.50.01.jpg)
+
+#### Wohlfahrtseffekte
+
+eines Höchstpreises: 
+
+- Best-Case: Konsumenten mit höchster marginaler Zahlungsbereitschaft erhalten Kauferlaubnis
+    - Wegfall von leicht grauem Dreieck 
+    - Gewinn von dunkelgrauem Dreieck für Konsumenten
+
+![2022-05-12_13.52.53](../images/2022-05-12_13.52.53.jpg)
+
+- Worst-Case: Außerkraftsetzung des Marktpreises => Verlust der Funktionsweise
+    - Konsumenten mit niedriger MZB erhalten Zugang (die vor Preisgrenze vielleicht gar keine Lust gehabt hätten)
+
+![2022-05-12_13.58.07](../images/2022-05-12_13.58.07.jpg)
+
+- Preisetzungen als Instrument der Sozialpolitik: 
+    - im Bereich der Wettbewerspolitik meist ineffizienter als andere Maßnahmen
+    - im sowieso stark regulierten Arbeitsmarkt können sie Effizienz erhöhen
+    - **ist nicht immer alles so einfach wie das neoklassische Modell!**
+
