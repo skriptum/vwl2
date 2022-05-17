@@ -59,6 +59,6 @@ Abwägungsprozess
 
 1. legitimer Zweck
 2. Geeignetheit
-3. Erfroderlichkeit
+3. Erforderlichkeit
 4. Angemessenheit
 
