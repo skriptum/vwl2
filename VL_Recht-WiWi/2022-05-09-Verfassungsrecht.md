@@ -30,9 +30,9 @@ daraus entstehende Prinzipien
 4. Bundesstaatsprinzip
 5. Rechtstaatprinzip
 
----
 
-Demokratieprinzip:
+
+## Demokratieprinzip
 
 - repräsentative Demokratie (Art. 38 GG)
 - personalisierte Verhältniswahl
@@ -51,6 +51,54 @@ wie demokratisch sind Kanzlerin, Minister,...?
 - **gleich:** jede Stimme gleichwertig 
 - **allgemein:** alle Deutsche (über 18)
 
+
+
+## Bundesstaatsprinzip
+
+Ordnung der Länder: Art 28 GG (Homogenitätsklausel)
+
+Abgrenzung der Aufgabengebiete: 
+
+> **Art. 73. GG**: 
+>
+> Der Bund hat alleinige Komeptenz über: Luftverkehr, auswärtiges, ...
+>
+> die Zusammenarbeit des Bundes und der Länder: Kriminalpolizei, ...
+
+Vorteile:
+
+- stärkere demokratische Rückkoppelung
+- lokale Probleme
+- Stärkung der Opposition (unterschiedliche Wahltermine)
+- vertikale Gewaltenteilung
+
+
+
+## Sozialstaatsprinzip
+
+Garantie des Existenzminimums + Anspruch auf Schutz
+
+- gleichwertige Lebensverhältnisse (Art. 72)
+- Schaffung sozialer Gerechtigkeit
+
+Instrumente:
+
+- ALG I und II
+- Diskrimierungsverbot
+
+
+
+## Rechtstaatprinzip
+
+Gewährleistung von Freiheit und Gerechtigkeit im staatlichen Bereich
+
+- Verhältnismäßigkeit
+- faire Verfahren
+- Gewaltenteilung
+- Rechtsweg 
+
+
+
 ###  Verhältnismäßigkeitsprinzip
 
 > **Verhältnismäßigkeit:** Kollidierende Rechtsprinzipien werden in Verhätlnis zueinander gesetzt, wenn wahrende Interesse schwerer wiegt als aufgeopferte
@@ -61,4 +109,3 @@ Abwägungsprozess
 2. Geeignetheit
 3. Erforderlichkeit
 4. Angemessenheit
-
