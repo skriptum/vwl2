@@ -1,3 +1,7 @@
+
+
+
+
 #  Notizen im zweiten Semester
 
 für Notizen von Modulen aus dem **erstem** Semester: [hier entlang](https://skriptum.github.io/vwl1)
@@ -23,7 +27,7 @@ für Notizen von Modulen aus dem **erstem** Semester: [hier entlang](https://skr
     - [ ] Übungsblatt
 
 - [ ] Wissenschaftliches Arbeiten - Vorlesung Aufzeichnungen ([ILIAS](https://ilias.uni-halle.de/ilias.php?cmd=render&cmdClass=ilrepositorygui&baseClass=ilRepositoryGUI&ref_id=244788&rtoken=273f22954002bcac30ac9816a61b92bc))
-- [ ] Öffentliches Recht - Inputs ([OpenCast](https://studip.uni-halle.de/plugins.php/opencast/course/index?cid=aa32e8f8b04104e6b8ab07bf07a2f897))
+- [x] Öffentliches Recht - Inputs ([OpenCast](https://studip.uni-halle.de/plugins.php/opencast/course/index?cid=aa32e8f8b04104e6b8ab07bf07a2f897))
 - Mikroökonomik 
     - [ ] Vorlesung [OpenCast](https://studip.uni-halle.de/plugins.php/opencast/course/index/false?cid=8f1b6a567146a3dc5e426d1abd87d2fd)
     - [ ] Übungsblatt
