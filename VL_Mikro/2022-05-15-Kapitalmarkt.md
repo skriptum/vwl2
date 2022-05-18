@@ -45,6 +45,20 @@ Ziel: maximiere den Gesamtnutzen in beiden Perioden
 
 Lagrange Funktion aufstellen: 
 $$
-L = U(x_{p1}, x_{p2}) + \lambda[m_1 * (1+r) + m_2 - (1+r)]
+\begin{aligned}
+L = U(x_{p1}, x_{p2}) &+ \lambda \ [m_1 * (1+r) + m_2 - (1+r)x_{p1} - x_{p2}] \\
+&\to \frac{\partial L}{\partial x_{p1}} = \frac{\partial U}{\partial x_{p1}} - \lambda * (1+r) = 0 \\
+& \to \frac{\partial L}{\partial x_{p2}} = \frac{\partial U}{\partial x_{p2}} - \lambda  = 0 \\
+&\to \frac{\partial L}{\partial \lambda} = m_1 * (1+r) + m_2 - (1+r)x_{p1} - x_{p2} = 0 \\
+\end{aligned}
 $$
-**0:22:05**
+Umstellen für die Zeitpräferenzrate
+$$
+\implies \frac{\frac{\partial L}{\partial x_{p1}}}{\frac{\partial L}{\partial x_{p2}}}  = 1+r \text{ oder } \frac{MU(x_{p1})}{MU(x_{p2})} = 1+r \\
+r = \frac{MU(x_{p1})}{MU(x_{p2})} - 1 \\
+r = \frac{MU(x_{p1})}{MU(x_{p2})}- \frac{MU(x_{p2})}{MU(x_{p2})} \\
+r = \bold{\tau = \frac{MU(x_{p1})- MU(x_{p2})}{MU(x_{p2})}}
+$$
+Analogie Betrachtungen dieser Formeln
+
+![2022-05-18_11.40.04](../images/2022-05-18_11.40.04.jpg)
