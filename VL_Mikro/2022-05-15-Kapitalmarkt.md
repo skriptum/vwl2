@@ -108,6 +108,7 @@ Verhalten dann abhängig von persönlicher Nutzenkurve des Loskäufers
 | Käufer 1 (risikoavers)                                    | Käufer 2 (risikofreudig)                                     | Käufer 3 (risikoneutral)                                  |
 | --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------- |
 | ![2022-05-20_12.55.56](../images/2022-05-20_12.55.56.jpg) | ![ 2022-05-20 at 12.56.08](../images/ 2022-05-20 at 12.56.08.jpg) | ![2022-05-20_12.56.59](../images/2022-05-20_12.56.59.jpg) |
+| strikt konkav                                             | strikt konvex                                                | Strikt geradlinig                                         |
 | $U(100) > 0.5 * U(95) + 0.5 * U(105)$                     | $U(100) < 0.5 * U(95) + 0.5 * U(105)$                        | $U(100) = 0.5 * U(95) + 0.5 * U(105)$                     |
 
 - Risikoaverser Käufer ist bereit, Versicherung gegen Risiko anzunehmen
