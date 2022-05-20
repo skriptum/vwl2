@@ -62,3 +62,55 @@ $$
 Analogie Betrachtungen dieser Formeln
 
 ![2022-05-18_11.40.04](../images/2022-05-18_11.40.04.jpg)
+
+
+
+Betrachtung der temporalen Konsumpräferenzen
+
+![2022-05-20_12.07.15](../images/2022-05-20_12.07.15.jpg)
+
+- Haushalt 1: hohe Gegenwartspräferenz in Punkt $Z_1$, Verschuldung in Periode 1
+- Haushalt 2: hohe Zukunftspräferenz, Kapitalanlage in Periode 1
+
+Berechnung der Zinsrate: *Realzins = Nominalzins - Inflationsrate*
+
+## Risikofreude
+
+Entscheidungen von Akteuren sind risikobehaftet, Bereitschaft zu Risiko = individuell
+
+- Mögliche Wahrscheinlichkeitsverteilung einer Entscheidung $W = [s_1,...,s_n \ ; \ \pi_1, ...,\pi_n]$
+- mit Ergebnissen $(s_1,..,s_n)$ und Wahrscheinlichkeiten $(\pi_1,...,\pi_n)$
+
+### Beispiel Lotterie
+
+- 100€ Ausgangsvermögen
+- 5€ Losticket, 
+- 50% Gewinnchance, 10€ Gewinn
+
+```mermaid
+graph LR
+A(Ausgangsvermögen: 100) --50%--> B(Gewinn: 100-5+10 = 105)
+A --50%--> C(Verlust: 100-5 = 95)
+```
+
+
+
+- $W = [95,105; 0.5,0.5]$
+- Erwartungswert: $105*0.5 + 95*0.5 = 100$
+
+Entscheidung mithilfe von Neumann-Morgenstern-Nutzenfunktion des *Erwartungswerts U(s)* 
+$$
+U(s) =& U(s_1) * \pi_1 + U(s_2) * \pi_2 + ... + U(s_n) * \pi_n \\
+U(s) =& 0.5 * U(95) + 0.5 * U(105)
+$$
+Verhalten dann abhängig von persönlicher Nutzenkurve des Loskäufers
+
+| Käufer 1 (risikoavers)                                    | Käufer 2 (risikofreudig)                                     | Käufer 3 (risikoneutral)                                  |
+| --------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------- |
+| ![2022-05-20_12.55.56](../images/2022-05-20_12.55.56.jpg) | ![ 2022-05-20 at 12.56.08](../images/ 2022-05-20 at 12.56.08.jpg) | ![2022-05-20_12.56.59](../images/2022-05-20_12.56.59.jpg) |
+| $U(100) > 0.5 * U(95) + 0.5 * U(105)$                     | $U(100) < 0.5 * U(95) + 0.5 * U(105)$                        | $U(100) = 0.5 * U(95) + 0.5 * U(105)$                     |
+
+- Risikoaverser Käufer ist bereit, Versicherung gegen Risiko anzunehmen
+    - Prämie in Höhe des Sicherheitsäquivalentes
+    - wenn er gezwungen wäre zu spielen!
+
