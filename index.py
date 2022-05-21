@@ -23,7 +23,7 @@ for file in all_files:
         if not file.startswith("."): #check if it is system file 
             #for all dirs
             if os.path.isdir(file):
-                if not file in ["images"]:
+                if not file in ["images", "VL_Mathe2"]:
                     dirs[file] = []
 
 

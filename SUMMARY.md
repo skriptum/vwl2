@@ -38,9 +38,6 @@
     - [Monopol](VL_Mikro/2022-05-21-Monopol.md)
     - [Übersicht](VL_Mikro/README.md)
 
-- Mathematik II
-    - [Übersicht](VL_Mathe2/README.md)
-
 - Statistik II
     - [Einfuehrung](VL_Statistik2/2022-04-05-Einfuehrung.md)
     - [Wahrscheinlichkeit](VL_Statistik2/2022-04-15-Wahrscheinlichkeit.md)
