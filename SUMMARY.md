@@ -3,6 +3,8 @@
     - [Einführung](VL_WissArbeit/2022-04-14-Einführung.md)
     - [Themenfindung](VL_WissArbeit/2022-04-22-Themenfindung.md)
     - [Organisation](VL_WissArbeit/2022-05-01-Organisation.md)
+    - [Literaturrecherche](VL_WissArbeit/2022-05-10-Literaturrecherche.md)
+    - [Literaturanalyse](VL_WissArbeit/2022-05-20-Literaturanalyse.md)
     - [Übersicht](VL_WissArbeit/README.md)
 
 - Recht für WiWi
@@ -12,6 +14,7 @@
     - [Mehrebenensystem](VL_Recht-WiWi/2022-05-04-Mehrebenensystem.md)
     - [Verfassungsrecht](VL_Recht-WiWi/2022-05-09-Verfassungsrecht.md)
     - [Auslegung](VL_Recht-WiWi/2022-05-17-Auslegung.md)
+    - [Staatsorganisation](VL_Recht-WiWi/2022-05-21-Staatsorganisation.md)
     - [Übersicht](VL_Recht-WiWi/README.md)
 
 - Stadtökonomie (Leipzig)
@@ -31,6 +34,8 @@
     - [Guetermarkt](VL_Mikro/2022-05-04-Guetermarkt.md)
     - [Arbeitsmarkt](VL_Mikro/2022-05-05-Arbeitsmarkt.md)
     - [Kapitalmarkt](VL_Mikro/2022-05-15-Kapitalmarkt.md)
+    - [Versicherung](VL_Mikro/2022-05-20-Versicherung.md)
+    - [Monopol](VL_Mikro/2022-05-21-Monopol.md)
     - [Übersicht](VL_Mikro/README.md)
 
 - Mathematik II
