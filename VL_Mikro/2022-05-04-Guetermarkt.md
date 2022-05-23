@@ -126,3 +126,62 @@ eines Höchstpreises:
     - im sowieso stark regulierten Arbeitsmarkt können sie Effizienz erhöhen
     - **ist nicht immer alles so einfach wie das neoklassische Modell!**
 
+
+
+## Übung
+
+### Marktgleichgewicht (kurzfristig)
+
+$$
+D(p) = x = - \frac{1}{2}p+9 \\
+S(p) = x = p- 6 \\
+D(p) = S(p) \to - \frac{1}{2}p+9 = p- 6 \\
+\frac{3}{2}p = 15  \to p = 10
+$$
+
+graphisch: 
+$$
+D \to p = -2x +18 \\
+D_{IPO}  =  (0,18) ; D_{IPA} = (9,0)\\
+S \to p = x + 6 \\
+S_{IPO}  =  (0,6) ; S_{IPA} = (-6,0)\\
+$$
+![2022-05-23_09.33.15](../images/2022-05-23_09.33.15.jpg)
+
+Konsumentenrente / Porduzentenrente
+$$
+PR = 4*4*0,5 = 8€ \\
+KR = 4*8 * 0,5 = 16€ \\
+PR + KR = 24€
+$$
+
+### Innovationen
+
+Verschiebung der Angebotsfunktion auf $S(p) = p - 3$
+
+![2022-05-23_09.39.49](../images/2022-05-23_09.39.49.jpg)
+$$
+KR = 5*10*0,5 = 25€ \\
+PR = 5*5*0,5 = 12.5 €\\
+PR + KR = 37.5€
+$$
+Langfristig: da $p = ATC_{min}$ Verschiebung nach unten
+
+![2022-05-23_09.49.50](../images/2022-05-23_09.49.50.jpg)
+
+### Konsumentenbesteuerung
+
+Stücksteuer von 3€, neue Demand-Funktion: $D\to p = -2x + 18-3$
+
+neues Gleichgewicht: 
+$$
+-2x + 15 = x+6 \\
+x^* = 3, p^* = 9
+$$
+![2022-05-23_09.48.59](../images/2022-05-23_09.48.59.jpg)
+
+Langfristig: Verschiebung der Nachfrage um t
+
+![2022-05-23_09.50.41](../images/2022-05-23_09.50.41.jpg)
+
+**analog Produzentensteuer**
