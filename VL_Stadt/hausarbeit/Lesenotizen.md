@@ -90,8 +90,6 @@ Ergebnisse nach auflösung des Modells
 
 
 
-
-
 ### 4: Data
 
 really scarce data in Africa
@@ -137,6 +135,8 @@ natürlich Regressionsmodell  , was sonst
     - X = time invariant controls
     - a = country year fixed effect
     - e = error term
+
+
 
 
 
