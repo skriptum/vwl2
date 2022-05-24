@@ -1,6 +1,8 @@
 
 
+![2022-02-13_13-29](images/2022-02-13_13-29.jpg)
 
+*99 Cent* by Andreas Gursky
 
 #  Notizen im zweiten Semester
 

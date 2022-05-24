@@ -102,7 +102,7 @@ $$
 
 Zusammenfügen beider Kurven
 
-![ 2022-04-07 at 14.42.06](../images/ 2022-04-07 at 14.42.06.jpg)
+![ 2022-04-07 at 14.42.06](../images/2022-04-07_14.42.06.jpg)
 
 - $Z_1 \neq$  optimal, da nicht auf *B*
 - $Z_2 \neq$ optimal, da weniger Nutzen als $Z_3$
