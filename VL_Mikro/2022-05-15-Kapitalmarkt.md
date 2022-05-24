@@ -115,3 +115,29 @@ Verhalten dann abhängig von persönlicher Nutzenkurve des Loskäufers
     - Prämie in Höhe des Sicherheitsäquivalentes
     - wenn er gezwungen wäre zu spielen!
 
+
+
+## Übung
+
+### Aufgabe 1: intertemporaler Konsum
+
+Konsument woll über zwei Jahre optimieren, ohne Möglichkeit anzulegen / Schulden zu machen!
+
+Nutzenfunktion: $U(x_1,x_2) = x_1^{0.5} x_2^{0.5}$
+
+- für Funktionsgleichung nach $x_2$ umstellen (Ordinaatenachse)
+
+$$
+\frac{U}{x_1^{0.5}} = x_2^{0.5} \to x_2 = \frac{U^2}{x_1}
+$$
+
+für *U=100* : $x_2 = 10000/x_1$
+
+![ 2022-05-24 at 18.28.42](../images/ 2022-05-24 at 18.28.42.jpg)
+
+### 2 Aufgabe: Intertemporale Budgetgerade
+
+Haushalt mit Einkommen = 100 GE pro Jahr und r=5%
+
+
+

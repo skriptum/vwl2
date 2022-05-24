@@ -156,3 +156,68 @@ Folgen:
 
 
 
+## Übung 
+
+### Aufgabe 1: Arbeitsnachfrage
+
+Produktionsfunktion $L^{1/2}$ 
+
+Gewinnoptimum: $G(L) = E(L) - C(L) = p*x(L) - w*L$
+
+ableiten nach der Arbeit und 0 setzen
+$$
+\frac{\partial G}{\partial L} = p \frac{\partial x}{\partial L} - w = 0 \\
+\to w = p * \frac{\partial x}{\partial L} \\
+\to \frac{\partial x}{\partial L} = \frac{w}{p} \text{ Steigung der Produktionsfunktion}
+$$
+für p = 4 
+$$
+w = p * \frac{\partial x}{\partial L} = 4 \frac{1}{2}*L^{-1/2} = \frac{2}{L^{1/2}}
+$$
+
+| L     | 0    | 1    | 4    | 9    |
+| ----- | ---- | ---- | ---- | ---- |
+| **w** | 0    | 2    | 1    | 2/3  |
+
+![2022-05-24_17.55.36](../images/2022-05-24_17.55.36.jpg)
+
+Nachfrage nach Arbeit bei w=1 und p=4
+$$
+1 = 2*L^{-1/2} \to& L = 4 \\
+x = L^{1/2} = 4^{1/2} \to& x = 2 \\
+G = p*x - w*L = 4*2 - 4 \to& G = 4
+$$
+
+### Aufgabe 2: Preisänderung auf Absatzmarkt
+
+Nachfrageerhöhung auf p=6, w=1 bleibt
+$$
+w = p * \frac{\partial x}{\partial L} \to 1= 6 * \frac{1}{2} *   L^{-1/2}\\ 
+\to 1/3^{-2} \to & L = 9 \\
+x = 9^{1/2} \to & x= 3 \\
+G = 6*3 - 9 \to& G = 9
+$$
+![2022-05-24_18.07.35](../images/2022-05-24_18.07.35.jpg)
+
+### Aufgabe 3: Produktivitätssteigerung
+
+gegebenes w=1 und p=4,  neue Produktionsfunktion
+
+neues Optimum:
+$$
+\implies x = L^{3/4} \\ 
+w = p * \frac{\partial x}{\partial L} \to 1 = 4*\frac{3}{4}*L^{-1/4} \\
+L = 1/3^{-4}\to & L = 81 \\
+x = L^{3/4} \to 81^{3/4}\to & x= 27 \\
+G = 4*27 - 1*81 \to & G=  27
+$$
+um altes Output x=2 zu erreichen
+$$
+2 = L^{3/4} \to 2^{4/3} = 8/3
+$$
+neue Nachfragekurve:
+$$
+w = p * \frac{\partial x}{\partial L} = \frac{3}{L^{1/4}}
+$$
+neue Punkte einsetzen und zeichnen
+
