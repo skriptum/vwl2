@@ -51,7 +51,25 @@ auch Binäre Variablen, können nur 0 oder 1 annehmen
 
 bspw. "Garten" oder "kein Garten"
 
+#### Interpretation von Logarithmen
 
+| Modell      | Abhängige Var. | Erklärende Var. | Interpretation                                        |
+| ----------- | -------------- | --------------- | ----------------------------------------------------- |
+| Level-Level | y              | $x_j$           | $\Delta \hat{y} = \beta_j \Delta x_j$                 |
+| Level-Log   | y              | $log(x_j)$      | $\Delta \hat{y} = \frac{\beta_j}{100}  \% \Delta x_j$ |
+| Log-Level   | *log(y)*       | $x_j$           | $\% \Delta \hat{y} = 100 \beta_j  \Delta x_j$         |
+| Log-Log     | *log(y)*       | *log(x)*        | $\% \Delta \hat{y} = \beta_j \% \Delta x_j$           |
+
+Beispiel: 
+$$
+log(CO2) = \beta_0 + 0.8 · log (pop) − 0.025 · subwaylines 
+$$
+Interpretation:
+
+- CO2 <-> Population = Log-Log 
+    - Bevölkerung um 1% steigen => 0.8% mehr CO2 Emissionen
+- CO2 <-> U-Bahnlinien = Log-Level 
+    - eine U-Bahnlinie mehr => $100*-0.025 = -2.5\%$ weniger Emissionen
 
 ## Instrumentvariablenschätzung
 
