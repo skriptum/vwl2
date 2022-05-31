@@ -5,6 +5,8 @@
     - [Organisation](VL_WissArbeit/2022-05-01-Organisation.md)
     - [Literaturrecherche](VL_WissArbeit/2022-05-10-Literaturrecherche.md)
     - [Literaturanalyse](VL_WissArbeit/2022-05-20-Literaturanalyse.md)
+    - [Zitieren](VL_WissArbeit/2022-05-23-Zitieren.md)
+    - [Oekonomik](VL_WissArbeit/2022-05-30-Oekonomik.md)
     - [Übersicht](VL_WissArbeit/README.md)
 
 - Recht für WiWi
@@ -20,9 +22,10 @@
 - Stadtökonomie (Leipzig)
     - [Alonso-Muth-Mills](VL_Stadt/2022-04-12-Alonso-Muth-Mills.md)
     - [AMM-2](VL_Stadt/2022-04-24-AMM-2.md)
-    - [Ökonomometrie](VL_Stadt/2022-05-06-Ökonomometrie.md)
+    - [Oekonomometrie](VL_Stadt/2022-05-06-Oekonomometrie.md)
     - [Entstehung](VL_Stadt/2022-05-10-Entstehung.md)
     - [Politik](VL_Stadt/2022-05-17-Politik.md)
+    - [Agglomeration](VL_Stadt/2022-05-24-Agglomeration.md)
     - [Übersicht](VL_Stadt/README.md)
 
 - Mikroökonomik
@@ -45,5 +48,6 @@
     - [Dichte](VL_Statistik2/2022-05-01-Dichte.md)
     - [Varianz](VL_Statistik2/2022-05-10-Varianz.md)
     - [Verteilungen](VL_Statistik2/2022-05-17-Verteilungen.md)
+    - [Normalverteilung](VL_Statistik2/2022-05-27-Normalverteilung.md)
     - [Übersicht](VL_Statistik2/README.md)
 

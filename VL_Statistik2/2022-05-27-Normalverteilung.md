@@ -75,7 +75,7 @@ P(Z \le -0.8) = \Phi(-0.8) = 1 - \underbrace{ \Phi(0.8)}_{\text{Tabelle}} = 1- 0
 $$
 Normalverteilung: 
 $$
-\begin{align}
+\begin{aligned}
 X \sim N(4,49) &\implies \mu = 4; \sigma = \sqrt{49} = 7  \\
 \\
 P(X \le 5) 
@@ -88,5 +88,5 @@ P(3 \le X \le 5)
 &= \Phi \Big(\frac{1}{7} \Big) - \Phi \Big(-\frac{1}{7} \Big) \\
 &= \Phi \Big(\frac{1}{7} \Big) - \Big[1- \Phi \Big(\frac{1}{7} \Big)\Big] \\
 &= 2 * \Phi \Big( \frac{1}{7} \Big) -1 = 0.1138
-\end{align}
+\end{aligned}
 $$
