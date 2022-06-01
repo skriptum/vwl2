@@ -26,6 +26,7 @@
     - [Entstehung](VL_Stadt/2022-05-10-Entstehung.md)
     - [Politik](VL_Stadt/2022-05-17-Politik.md)
     - [Agglomeration](VL_Stadt/2022-05-24-Agglomeration.md)
+    - [Immobilienmarkt](VL_Stadt/2022-05-31-Immobilienmarkt.md)
     - [Übersicht](VL_Stadt/README.md)
 
 - Mikroökonomik
@@ -39,6 +40,8 @@
     - [Kapitalmarkt](VL_Mikro/2022-05-15-Kapitalmarkt.md)
     - [Versicherung](VL_Mikro/2022-05-20-Versicherung.md)
     - [Monopol](VL_Mikro/2022-05-21-Monopol.md)
+    - [Gueter](VL_Mikro/2022-05-31-Gueter.md)
+    - [Externe-Effekte](VL_Mikro/2022-06-05-Externe-Effekte.md)
     - [Übersicht](VL_Mikro/README.md)
 
 - Statistik II
