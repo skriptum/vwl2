@@ -1,20 +1,20 @@
-# Mikroökonomie I
+# Mikroökonomik I
 
-## Mitschriften
+## Notizen
 
-  - [Einfuehrung](2022-04-06-Einfuehrung.md)
-  - [Haushalte](2022-04-07-Haushalte.md)
-  - [Effekte](2022-04-14-Effekte.md)
-  - [Unternehmen](2022-04-22-Unternehmen.md)
-  - [Unternehmen2](2022-04-27-Unternehmen2.md)
-  - [Guetermarkt](2022-05-04-Guetermarkt.md)
-  - [Arbeitsmarkt](2022-05-05-Arbeitsmarkt.md)
-  - [Kapitalmarkt](2022-05-15-Kapitalmarkt.md)
-  - [Versicherung](2022-05-20-Versicherung.md)
-  - [Monopol](2022-05-21-Monopol.md)
-  - [Gueter](2022-05-31-Gueter.md)
-  - [Externe-Effekte](2022-06-05-Externe-Effekte.md)
-  - [Übersicht](README.md)
+  - [Einfuehrung](VL_Mikro/2022-04-06-Einfuehrung.md)
+  - [Haushalte](VL_Mikro/2022-04-07-Haushalte.md)
+  - [Effekte](VL_Mikro/2022-04-14-Effekte.md)
+  - [Unternehmen](VL_Mikro/2022-04-22-Unternehmen.md)
+  - [Unternehmen2](VL_Mikro/2022-04-27-Unternehmen2.md)
+  - [Guetermarkt](VL_Mikro/2022-05-04-Guetermarkt.md)
+  - [Arbeitsmarkt](VL_Mikro/2022-05-05-Arbeitsmarkt.md)
+  - [Kapitalmarkt](VL_Mikro/2022-05-15-Kapitalmarkt.md)
+  - [Versicherung](VL_Mikro/2022-05-20-Versicherung.md)
+  - [Monopol](VL_Mikro/2022-05-21-Monopol.md)
+  - [Gueter](VL_Mikro/2022-05-31-Gueter.md)
+  - [Externe-Effekte](VL_Mikro/2022-06-05-Externe-Effekte.md)
+  - [Übersicht](VL_Mikro/README.md)
 
 
 
