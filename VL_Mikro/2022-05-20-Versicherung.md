@@ -22,15 +22,21 @@ mögliche Fälle
 
 ![2022-05-20_14.57.57](../images/2022-05-20_14.57.57.jpg)
 
+- $y_b$ = Einkommen im Schadensfall, das wir erhöhen wollen
+- $y_g$ = Einkommen ohne Schadensfall
 - 45° Linie = gleichmäßige Verteilung zwischen Eintreten beider Fälle
     - Haushalt ist dann indifferent zwischen beiden Fällen: $MU_{y_b}=MU_{y_g}$
+    - Wichtig: Raum unterhalb der Achse, da nur dann positiver Fall
 - Ausgangsituation E ohne Versicherung
     - im guten Fall: $y^*$
     - im schlechten Fall: $y^* - L$ 
 - Punkt B: mit Versicherung
+    - wir geben $y_g$ auf, um bei $y_b$ hochzuwandern
+    - Punkt B = indifferent zwischen Eintreten beider Fälle
     - im guten und schlechten Fall zwischen $y^*$ und  $y^* - L$
 
-### Substiutionskönnen
+
+### Substitutionskönnen
 
 Marginal Rate of Transformation: $\frac{1-p}{p} = MRT$ 
 
