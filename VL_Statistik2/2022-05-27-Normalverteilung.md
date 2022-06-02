@@ -90,3 +90,44 @@ P(3 \le X \le 5)
 &= 2 * \Phi \Big( \frac{1}{7} \Big) -1 = 0.1138
 \end{aligned}
 $$
+
+---
+
+In R:
+
+```R
+p = 5 # der gesuchte Wert
+m = 4 # das mu der Verteilung
+sd = 7 # die Standardabweichung
+# Berechnung der Wahrscheinlichkeit mit pnorm()
+pnorm(p,m,sd)
+```
+
+Output:
+
+```
+0.5567985
+```
+
+wenn nicht unterhalb der Wert gesucht wird, sondern oberhalb:
+
+```R
+pnorm(p,m,sd,lower.tail=FALSE) 
+```
+
+
+
+anderes Beispiel:
+
+```R
+p = 6 # der gesuchte Wert
+m = 5 # das mu der Verteilung
+sd = 2 # die Standardabweichung
+# Berechnung der Wahrscheinlichkeit mit pnorm()
+pnorm(p,m,sd) 
+# 0.691
+```
+
+Darstellung:
+
+![2022-06-02_12-39](../images/2022-06-02_12-39.png)
