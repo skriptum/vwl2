@@ -86,6 +86,8 @@ wer hat im Bereich des Waffenrechtes die Gesetzgebnugskompetenz?
 
 jaaaaaaaaaa gut.
 
+formal: Einbringung von Gesetzesvorlagen nach `Art. 76 Abs 1 GG`
+
 ### Zustimmungsgesetze
 
 Zustimmg vom Bundesrat brauchen Gesetze, die:
