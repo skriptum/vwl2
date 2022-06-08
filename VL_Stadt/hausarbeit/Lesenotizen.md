@@ -132,11 +132,114 @@ natürlich Regressionsmodell  , was sonst
 - $u_{ijt} = \beta_0 w_{ijt} + \beta_1 X_{ij} + \beta_2 X_{ij} \ w_{ijt} + \alpha_{jt}+ \varepsilon _{ijt}$
     - u = growth of urban pop.
     - w = moisture
+        - smoothed over three years
     - X = time invariant controls
     - a = country year fixed effect
+        - control for variation across countries
     - e = error term
 
+Ergebnisse der Regression (mit vielen Robustness Checks)
 
+![2022-06-03_12.50.51](../../images/2022-06-03_12.50.51.jpg)
+
+Columns:
+
+1. all districts
+2. districts with modern industries
+3. districts with industries
+
+Graphik aufgeschlüsselt nach Anzahl Industrien 
+
+![2022-06-03_12.56.13](../../images/2022-06-03_12.56.13.jpg)
+
+one standard deviation decrease in growth rate of moisture => increate grwoth rate of share urban by about 0.015
+
+Robustness Checks:
+
+- impact of conflict on urbanization
+
+## 6 Climate Change and City Income
+
+now: impct of annual climate fluctuations on annual city incomes
+
+Data:
+
+- cities and rainfall within 30 km of them (vs 41000 sqkm districts)
+- income measure: light emittance current or prior year
+    - US Defence Meteorological Satellite Program (DMSP)
+    - 1992 - 2008 
+    - major Dataset from Henderson et al (2012) and the work it did
+    - 1158 cities and towns in 42 countries
+    - outer envelope of lights
+- rainfall from Africa Rainfall Climatology Version 2
+
+Specification:
+$$
+\ln(light_{it}) = \sum_{j=0}^k \beta_j \ln(rain_{i,t-j}) + \sum_{j=0}^k \gamma_j X_i^` \ln(rain_{i,t-j}) + \phi_i + \lambda_t + a_i t + \epsilon_{it}
+$$
+
+- $light_{it}$ = light summed over pixels in city i year t
+- Rain = average rainfall per day in city i 
+- x = time invariant city controls
+- $\phi$ = city fiex effect
+- $\lambda_t$ = year fixed effect
+- $a_i t$ city specific linear trend
+- error term
+
+only looking at year to year fluctuations => only small responses, but insignificant
+
+shorter period, starts later
+
+Ergebnisse:
+
+- most industrialized areas -> elasticity = -0.21
+- zero industry areas -> e close to zero
+- Take a measurement for light-GDP elasticity from Henderson 2012
+
+=> A one standard deviation rainfall increase reduces lights by 11%, and income by approximately 3.5%
+
+![2022-06-03_13.26.52](../../images/2022-06-03_13.26.52.jpg)
+
+Columns:
+
+1. effect on all cities
+2. effect on industrialized cities (measure from Atlas)
+3. effect on industrialized cities (different measure)
+
+
+
+Robustness Checks:
+
+- against floods
+- cities served by hydro power
+
+## 7 Mechanisms
+
+Micro Evidence from India
+
+- annual Survey of manufacturers (problem of bad data)
+- not inconsistent with model 
+
+
+
+## 8 Conclusions
+
+- Africa at high risk from CC
+- already highly variable and marginally suitable. agro-climate
+
+Climatic conditions influence urbanization rates in industrialized districts and add to city income
+
+for non-industrialized = less income, no migration
+
+might help industrialized sitricts facing climate change
+
+but:
+
+- Africa Lack os structural transformation to industry
+- not much usage of fertilizer and technic from farmers 
+    - help agricultural adaptation
+
+Africa can nog use "Leapfrogging" and skip industrialization
 
 
 
