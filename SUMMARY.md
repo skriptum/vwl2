@@ -1,12 +1,13 @@
 - [Startseite](README.md)
 - Wissenschaftliches Arbeiten
-    - [Einführung](VL_WissArbeit/2022-04-14-Einführung.md)
+    - [Einfuehrung](VL_WissArbeit/2022-04-14-Einfuehrung.md)
     - [Themenfindung](VL_WissArbeit/2022-04-22-Themenfindung.md)
     - [Organisation](VL_WissArbeit/2022-05-01-Organisation.md)
     - [Literaturrecherche](VL_WissArbeit/2022-05-10-Literaturrecherche.md)
     - [Literaturanalyse](VL_WissArbeit/2022-05-20-Literaturanalyse.md)
     - [Zitieren](VL_WissArbeit/2022-05-23-Zitieren.md)
     - [Oekonomik](VL_WissArbeit/2022-05-30-Oekonomik.md)
+    - [positive-Theorie](VL_WissArbeit/2022-06-07-positive-Theorie.md)
     - [Übersicht](VL_WissArbeit/README.md)
 
 - Recht für WiWi
@@ -17,6 +18,7 @@
     - [Verfassungsrecht](VL_Recht-WiWi/2022-05-09-Verfassungsrecht.md)
     - [Auslegung](VL_Recht-WiWi/2022-05-17-Auslegung.md)
     - [Staatsorganisation](VL_Recht-WiWi/2022-05-21-Staatsorganisation.md)
+    - [Grundrechte](VL_Recht-WiWi/2022-06-02-Grundrechte.md)
     - [Übersicht](VL_Recht-WiWi/README.md)
 
 - Stadtökonomie (Leipzig)
@@ -52,5 +54,8 @@
     - [Varianz](VL_Statistik2/2022-05-10-Varianz.md)
     - [Verteilungen](VL_Statistik2/2022-05-17-Verteilungen.md)
     - [Normalverteilung](VL_Statistik2/2022-05-27-Normalverteilung.md)
+    - [NormalVtlg-2](VL_Statistik2/2022-06-02-NormalVtlg-2.md)
+    - [Schaetzer](VL_Statistik2/2022-06-05-Schaetzer.md)
+    - [Tests](VL_Statistik2/2022-06-07-Tests.md)
     - [Übersicht](VL_Statistik2/README.md)
 
