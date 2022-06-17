@@ -32,7 +32,7 @@ Unterteilung der Grundrechte entweder in Bürger / Menschenrechte oder durch Wir
 3. **Mitwirkungsrechte** des Bürgers im Staatswesen
     - Wahlrecht, Petitionsrecht
 4. **Einrichtungsgarantien** :besondere Institutionen müssen gewährleistet werden
-    - Instutsgarantien: Ehe, Eigentum, ...
+    - Instutionsgarantien: Ehe, Eigentum, ...
     - institutionelle Garantien: Uni, Religionsunterricht
 
 
@@ -45,7 +45,7 @@ Unterteilung der Grundrechte entweder in Bürger / Menschenrechte oder durch Wir
 - *mittelbare Drittwirkung:* unbestimmte Rechtsbegriffe wie Treu und Glauben
     - oder Diskriminierungsverbot im Job etc
 
-## Prüfungsschema für Eingriffe
+## Prüfungsschema für Freiheitsgrundrechte
 
 diese Schritte müssen durchlaufen werden für Eingriffe in Freiheitsgrundrechte
 
@@ -84,3 +84,15 @@ bspw. Verbot des Tragens eines Kopftuches
     - Erforderlichkeit (gibt es mildere Mittel?)
     - Angemessenheit (Schwerpunkt des Falles)
 
+## Prüfschema für Gleichheitsgrundrechte
+
+1. Ungleichbehandlung von Personengruppen?
+2. Ungleichbehandlung verfassungsrechtlich gerechtfertigt? 
+
+**10a 50:00**
+
+Beispiel:
+
+- alter §622 BGB: kürzere Kündigungsfristen für Arbeiter als für Angestellte
+    - Arbeitnehmereigenschaft -> personenbezogene Ungleichbehandlung
+    - Verstoß gegen Art. 3 I GG (laut BVerfG)

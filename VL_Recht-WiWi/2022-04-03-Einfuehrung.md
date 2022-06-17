@@ -33,7 +33,7 @@ Staat als
 2. Verfassungsrecht
 	- Staatsrecht
 	- Grundrecht
-	- Wirtschaftsverfassung
+	- Verfassungsprozessrecht
 3. Verwaltungsrecht
 	- allg. Verwaltungsrecht
 	- besonderes Verwaltungsrecht
