@@ -18,7 +18,9 @@
     - [Verfassungsrecht](VL_Recht-WiWi/2022-05-09-Verfassungsrecht.md)
     - [Auslegung](VL_Recht-WiWi/2022-05-17-Auslegung.md)
     - [Staatsorganisation](VL_Recht-WiWi/2022-05-21-Staatsorganisation.md)
-    - [Grundrechte](VL_Recht-WiWi/2022-06-02-Grundrechte.md)
+    - [Grundrechte-I](VL_Recht-WiWi/2022-06-02-Grundrechte-I.md)
+    - [Grundrechte-II](VL_Recht-WiWi/2022-06-10-Grundrechte-II.md)
+    - [Prozessrecht](VL_Recht-WiWi/2022-06-17-Prozessrecht.md)
     - [Übersicht](VL_Recht-WiWi/README.md)
 
 - Stadtökonomie (Leipzig)
