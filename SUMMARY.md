@@ -8,6 +8,7 @@
     - [Zitieren](VL_WissArbeit/2022-05-23-Zitieren.md)
     - [Oekonomik](VL_WissArbeit/2022-05-30-Oekonomik.md)
     - [positive-Theorie](VL_WissArbeit/2022-06-07-positive-Theorie.md)
+    - [qualitativ](VL_WissArbeit/2022-06-19-qualitativ.md)
     - [Übersicht](VL_WissArbeit/README.md)
 
 - Recht für WiWi

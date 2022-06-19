@@ -78,7 +78,7 @@ bspw. Verbot des Tragens eines Kopftuches
 1. **Schranken:** Vorschriften, die das Handeln beschränken (Gesetzesvorbehalte)
     - einfacher Gesetzesvorbehalt (*durch oder aufgrund eines Gesetzes*)
     - qualifizierter Gesetzesvorbehalt (zb. `Art.5 GG`)
-    - verfassungsimmanente Schranken (sonstige Verfassungsgüter)
+    - verfassungsimmanente Schranken (sonstige Verfassungsgüter) `Art. 5 II`
 2. **Schranken-Schranken**: Verhältnismäßigkeit der Schranke im Einzelfall
     - Geeignetheit (zweckmäßig)
     - Erforderlichkeit (gibt es mildere Mittel?)
@@ -88,8 +88,6 @@ bspw. Verbot des Tragens eines Kopftuches
 
 1. Ungleichbehandlung von Personengruppen?
 2. Ungleichbehandlung verfassungsrechtlich gerechtfertigt? 
-
-**10a 50:00**
 
 Beispiel:
 
