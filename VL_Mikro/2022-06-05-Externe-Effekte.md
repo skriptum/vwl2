@@ -140,3 +140,56 @@ es wird Obergrenze (Cap festgelegt) und dann für die verbleibenden Emissionen Z
 
 ![2022-05-31_15.06.57](../images/2022-05-31_15.06.57.jpg)
 
+
+
+
+
+## Übung 12
+
+### Negative Effekte und Besteuerung
+
+Markt für privates Gut *x*
+
+- nachfrage: $p = -3x+110$
+- private Grenzkosten: $pMC = x+30$
+- soziale Grenzkosten $sMC = x+70$
+
+Bestimmung des Wettbewerbsgleichgewichts
+$$
+pMC = D \\
+x+30 = -3x +110 \\
+4x = 80 \to x = 20 \\
+p = -3x*20+110 = 50
+$$
+mit gesellschaftlichen Grenzkosten
+$$
+x+70 = -3x+110 \\
+x = 10 \to p = 80
+$$
+
+Optimum: soziale Grenzkosten = private Grenzkosten
+$$
+x+70 = x+30 + \underbrace{t}_{Steuer} \to \underline{t = 40}
+$$
+![2022-06-22_16.06.20](../images/2022-06-22_16.06.20.jpg)
+
+### Positive Effekte und Subventionierung
+
+Wettbewerblicher Markt mit positiven Effekten eines Gutes
+
+- private Zahlungsbereitschaft sD: $p = -3x+110$
+- soziale Zahlungsbereitschaft pD: $p = -3x+150$
+- $MC = x+30$
+
+Wettbewerbsgleichgewicht: x=20
+
+gesellschaftliches Optimum: $x+30 = -3x+150 \to x = 30$
+
+Subvention sodass *sD = pD*
+$$
+-3x+150 = -3x+110 + \bf{s} \\
+s = 40
+$$
+
+Graphik: ![2022-06-22_16.06.36](../images/2022-06-22_16.06.36.jpg)
+
