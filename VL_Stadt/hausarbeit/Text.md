@@ -1,4 +1,4 @@
----
+
 
 ## I: Modellspezifikation
 
@@ -14,7 +14,6 @@ Distrikte aus Zensus für Regressionsmodell
 
 => Frage: Was passiert, wenn die Feuchtigkeit zurückgeht?
 
----
 
 ## Ergebnisse
 
