@@ -6,9 +6,10 @@
     - [Literaturrecherche](VL_WissArbeit/2022-05-10-Literaturrecherche.md)
     - [Literaturanalyse](VL_WissArbeit/2022-05-20-Literaturanalyse.md)
     - [Zitieren](VL_WissArbeit/2022-05-23-Zitieren.md)
-    - [Oekonomik](VL_WissArbeit/2022-05-30-Oekonomik.md)
+    - [normative-Oekonomik](VL_WissArbeit/2022-05-30-normative-Oekonomik.md)
     - [positive-Theorie](VL_WissArbeit/2022-06-07-positive-Theorie.md)
     - [qualitativ](VL_WissArbeit/2022-06-19-qualitativ.md)
+    - [quantitativ](VL_WissArbeit/2022-06-23-quantitativ.md)
     - [Übersicht](VL_WissArbeit/README.md)
 
 - Recht für WiWi
@@ -22,6 +23,7 @@
     - [Grundrechte-I](VL_Recht-WiWi/2022-06-02-Grundrechte-I.md)
     - [Grundrechte-II](VL_Recht-WiWi/2022-06-10-Grundrechte-II.md)
     - [Prozessrecht](VL_Recht-WiWi/2022-06-17-Prozessrecht.md)
+    - [Verwaltungsrecht](VL_Recht-WiWi/2022-06-21-Verwaltungsrecht.md)
     - [Übersicht](VL_Recht-WiWi/README.md)
 
 - Stadtökonomie (Leipzig)
@@ -60,5 +62,6 @@
     - [NormalVtlg-2](VL_Statistik2/2022-06-02-NormalVtlg-2.md)
     - [Schaetzer](VL_Statistik2/2022-06-05-Schaetzer.md)
     - [Tests](VL_Statistik2/2022-06-07-Tests.md)
+    - [Tests2](VL_Statistik2/2022-06-20-Tests2.md)
     - [Übersicht](VL_Statistik2/README.md)
 
