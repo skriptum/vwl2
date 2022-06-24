@@ -73,7 +73,8 @@ symmetrisches Konfidenzintervall für $\mu$;
 
 $\sigma^2$ bekannt:
 $$
-\Big[\bar{X}- \frac{\sigma}{\sqrt{n}}\cdot z_{1-\alpha/2} \ , 
+\Big[\bar{X}- \frac{\sigma}{\sqrt{n}}\cdot z_{1-\alpha/2}
+\ , \
 \bar{X} +  \frac{\sigma}{\sqrt{n}}\cdot z_{1-\alpha/2}\ \Big]
 $$
 für $(1-\alpha)$ Konfidenzintervall
@@ -86,8 +87,9 @@ $\sigma^2$ Unbekannt:
 - $(1-\alpha/2)$ Quantil der **t-Verteilung** statt *z*
 
 $$
-\Big[\bar{X}- \frac{S}{\sqrt{n}}\cdot t_{(n-1;1-\alpha/2)} \ , 
- \Big]
+\Big[\bar{X}- \frac{S}{\sqrt{n}}\cdot t_{(n-1;1-\alpha/2)} 
+\ , \ 
+\bar{X}+ \frac{S}{\sqrt{n}}\cdot t_{(n-1;1-\alpha/2)}\Big]
 $$
 
 für $(1-\alpha)$ Konfidenzintervall

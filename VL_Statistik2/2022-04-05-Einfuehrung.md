@@ -33,8 +33,8 @@ kolmogoroffsche Axiome
 - Differenzmenge $A \setminus B$ 
 - Komplementärmenge $A^{C}$ 
 
-Beispiel im Casino mit Falschspielern **F** und Trickstern **T**
-![](images/2022-04-05_13.32.43.jpg)
+Beispiel im Casino mit Falschspielern **F** und Trickstern **T** und Darstellung mit Venn
+![](../images/2022-04-05_13.32.43.jpg)
 
 ### Rechenregeln
 - kommutativ: $A \cap B = B \cap A$
@@ -43,5 +43,4 @@ Beispiel im Casino mit Falschspielern **F** und Trickstern **T**
 - de Morgan:
     - $(A \cap B)^{C}= A^{C} \cup B^{C}$
     - $A \subseteq B \to B^{C} \subseteq A^{C}$
-
 
