@@ -53,3 +53,4 @@ Analyse
 2. Ermessensentscheidung: *kann*
 3. Rechtsfolge: abhängig von Ermessen
 
+Kennwörter: *kann, in der Regel, darf, ist berechtigt, soll*

@@ -1,0 +1,21 @@
+title: "Has climate change driven Urbanization in Africa?"
+subtitle: "Eine Untersuchung des Artikels von Henderson et al. (2017)"
+author: "Juliane Schubert, Marten Walk"
+number-sections: true
+bibliography: references.bib  
+fontsize: 12pt
+linestretch: "1.5"
+link-citations: true
+
+format:
+  pdf:
+    documentclass: article
+    margin-left: 20mm
+    margin-right: 20mm
+    margin-top: 25mm
+    margin-bottom: 25mm
+    include-before-body: tables.tex
+    include-in-header: packages.tex
+    keep-tex: false
+    
+    

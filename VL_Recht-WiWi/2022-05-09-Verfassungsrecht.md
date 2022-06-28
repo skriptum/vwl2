@@ -96,6 +96,8 @@ Gewährleistung von Freiheit und Gerechtigkeit im staatlichen Bereich
 - faire Verfahren
 - Gewaltenteilung
 - Rechtsweg 
+- Willkürverbot
+- Verbot der Rückwirkung
 
 
 

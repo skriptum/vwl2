@@ -66,17 +66,27 @@ Prüfung:
 
 ---
 
-Behördenentscheidungen sind oft ermessungsabhängig! dieses Ermessen kann von Gerichten überprüft werden `§114 VwGO`
-
-aber: Situationen, in denen besondere Sachkompetenz erforderlich ist, wird das Gericht der Behörde oft recht geben
+Behördenentscheidungen sind oft ermessungsabhängig `§40VwVfG`! dieses Ermessen kann von Gerichten überprüft werden `§114 VwGO`
 
 Verwaltungsgericht kann bei Beurteilungspielraum der Behörde nur auf Beurteilungsfehler kontrollieren:
 
 - Zugrundeliegen eines unrichtigen Sachverhalts
 - Nichtbeachtung anerkannter Bewertungsmaßstäbe
 - Verkennung des Spielraums
+- Sachfremde Erwägungen in Entscheidung
 
+ aber: Situationen, in denen besondere Sachkompetenz erforderlich ist, wird das Gericht der Behörde oft recht geben
 
+Ermessensfehler:
+
+- Ermessensunterschreitung / nichtgebrauch
+    - es besteht Ermessen
+- Ermessensüberschreitung
+    - Gebühren zw. 40-80€ möglich, Behörde erhebt 100€
+- Ermessensfehlgebrauch
+    - Verhältnismäßigket: einmaliger Verkehrssünder muss zur Verkehrserziehung
+- Ermessensreduzierung auf Null 
+    - es ist offensichtlich, dass gehandelt werden müsste (bspw. 10 Polizisten gegen 2 randalierende Jugendliche), da gibts keinen Spielraum
 
 ## Öffentlich rechtlicher Vertrag
 
