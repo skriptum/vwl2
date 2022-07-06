@@ -4,11 +4,11 @@ Afrika ist einer der Regionen, die global gesehen vor den größten Herausforder
 
 Mit diesen Themen beschäftigen sich Vernon Henderson, Adam Storeygard und Uwe Deichmann in ihrer wissenschaftlichen Arbeit mit dem Titel "Has climate change driven urbanization in Africa?". Der Artikel wurde 2016 im renommierten Journal of Development Economics veröffentlicht und untersucht die Zusammenhänge zwischen Urbanisierung und Klimawandel in Subsahara-Afrika (vgl. @hendersonHasClimateChange2017)
 
-Die beiden Fragen, die die Autoren zu beantworten versuchen, sind einerseits, ob ungünstige Klimaveränderungen dazu führen, dass die Menschen aus den ländlichen Gebieten in die Städte ziehen und andererseits, ob dieser Zuzug dass Gesamteinkommen der Städte erhöht. Die Motivation hinter der Fragestellung ist also, ob die Urbanisierung in Afrika ein Ausweg aus den sich verändernden klimatischen Bedigungen sein kann.
+Die beiden Fragen, die die Autoren zu beantworten versuchen, sind einerseits, ob ungünstige Klimaveränderungen dazu führen, dass die Menschen aus den ländlichen Gebieten in die Städte ziehen und andererseits, ob dieser Zuzug dass Gesamteinkommen der Städte erhöht. Die Motivation hinter der Fragestellung ist also, ob die Urbanisierung in Afrika ein Ausweg aus den sich verändernden klimatischen Bedingungen sein kann.
 
 ### Forschungsstand
 
-Die Frage, was das Stadtwachstum antreibt, wird in der stadtökonomischen Forschung weit diskutiert. Unterschieden wird dabei im Wesentlichen zwischen Pull-Faktoren wie bspw. Wirtschaftliche Aussichten und Push-Faktoren wie beispielsweise Konflikte. 
+Die stadtökonomische Forschung unterscheidet in der Untersuchung der Faktoren, die die Urbanisierung im Wesentlichen zwischen Pull-Faktoren wie bspw. Wirtschaftliche Aussichten und Push-Faktoren wie bspw. Konflikte. 
 
 Zur Frage des Klimawandels als Push-Faktor der Urbanisierung, die die Autoren untersuchen, ist die nächstverwandte Arbeit von @barriosClimaticChangeRural2006a . Sie untersuchten die Fragestellung anhand eines Paneldatensatzes von 36 Ländern aus Subsahara-Afrika und verglichen ihre Ergebnisse mit Entwicklungsländern aus anderen Regionen. Ähnlich geht @brucknerEconomicGrowthSize2012 vor, der den Zusammenhang zwischen dem Anteil der Landwirtschaft am BIP und Niederschlag untersucht. Auch @hendersonUrbanizationSubSaharanAfrica2013 untersuchten diese Frage bereits für die Weltbank.
 
@@ -20,9 +20,20 @@ Ein weiteres Alleinstellungsmerkmal der Forschungsarbeit ist, dass die Autoren d
 
 -   Zu Effekt von Klimawandel auf Afrika
 
-    -   Afrika diverses Klima
+    -   Afrika diverses Klima (aride Sahara - subtropischer Dschungel)
+    -   Erwärmung
+    -   Niederschlagsreduktion
+    -   Fläche unter Extremhitze
+    -   @kurukulasuriyaWillAfricanAgriculture2006
+    -   @gollinUrbanizationIndustrialization2016
 
 -   Effekt von klimawandel auf Landwirtschaft
+
+    -   Verluste Crops
+
+    -   geringe Düngernutzung
+
+    -   wenig Irrigation
 
 ------------------------------------------------------------------------
 
@@ -32,17 +43,23 @@ Um die empirischen Untersuchungen zu unterstüzen, konstruieren die Autoren ein 
 
 ### Mathematisches Modell
 
-Die Autoren modellieren die Bewegungen zwischen dem städtischen Sektor und dem ländlichen Sektor in einem Distrikt
+Die Autoren modellieren die lokale Migration zwischen einem städtischen Sektor und einem ländlichen Sektor in einem Distrikt bei einer Feuchtigkeitsveränderung. Die Städte sind in ihrem Modell Marktstädte für die Umgebung und können potentiell eine zusätzliche Industrie haben, dessen Produkte exportiert werden. Die Migrationsbewegungen gleichen durch Arbitrage die Löhne aus, wodurch Vollbeschäftigung im Distrikt herrscht.
+
+Nach Lösung des Modells unterscheiden sich die Effekte einer Feuchtigkeitssenkung abhängig von den Funktionen der Stadt in einem Distrikt. Wenn die Stadt eine exportierende Industrie hat, kann diese die zusätzlichen Arbeitskräfte aus dem schrumpfenden landwirtschaftlichen Sektor auffangen. Die Stadtbevölkerung vergrößert sich und das Gesamteinkommen der Stadt steigt aufgrund der Ausweitung des produzierenden Gewerbes.
+
+Wenn die Stadt eines Distriktes jedoch nur eine Marktfunktion für den landwirtschaftlichen Sektor darstellt, führt eine Feuchtigkeitssenkung zu keinen Effekten auf die Stadtbevölkerung. Trotz einer Senkung der Einkommen im landwirtschaftlichen Sektor gibt es keine Migration in die Städte, da es dort keine Arbeitsmöglichkeiten gibt.
+
+Diese Ergebnisse der mathematischen Modellierung untersuchen die Autoren in der empirischen Analyse, die wir im nächsten Teil erläutern, getrennt nach dem Wachstum der Stadt und den Einkommensveränderungen.
 
 ### Klimaveränderung und Urbanisierung
 
 Um die erste Forschungsfrage zu beantworten, ob Klimaveränderungen zu einem verstärkten zuzug in die Städte führen, kombinieren die Forscher verschiedene Datensätze zu Bevölkerung, Klimaveränderungen und Industrie und konstruieren anschließend ein Regressionsmodell.
 
-Für Bevölkerungsdaten nutzen die Autoren Zensusdaten von Ländern in Subsahara-Afrika, die in einem Zeitraum von 1960 bis 2010 mindestens 2 Zensus in einem Abstand von weniger als 20 Jahren durchgeführt haben. Daraus entsteht ein Paneldatensatz mit 29 Ländern, unter anderem nicht Teil ist aber Nigeria aufgrund von Bedenken über die Qualität der Zensusdaten. Das Panel beruht somit nicht auf Interpolation, sondern den reinen Daten. Grundlage sind Publikationen des US. Census Bureau, der U.S. Library of Congress, die Bibliothek der LSE und die British Library. Daraus extrahieren sie daraufhin Daten zu 369 subnationalen Distrikten mit einer durchschnittlichen Fläche von 41.100 Quadratkilometern. Diese Distrikte werden in Abbildung 1 dargestellt.
+Für Bevölkerungsdaten nutzen die Autoren Zensusdaten von Ländern in Subsahara-Afrika, die in einem Zeitraum von 1960 bis 2010 mindestens 2 Zensus in einem Abstand von weniger als 20 Jahren durchgeführt haben. Daraus entsteht ein Paneldatensatz mit 29 Ländern, unter anderem nicht Teil ist aber Nigeria aufgrund von Bedenken über die Qualität der Zensusdaten. Das Panel beruht aufgrund der Nutzung von Originaldaten nicht auf Interpolation, sondern den reinen Daten. Grundlage sind Publikationen des US. Census Bureau, der U.S. Library of Congress, die Bibliothek der LSE und die British Library. Daraus extrahieren sie daraufhin Daten zu 369 subnationalen Distrikten mit einer durchschnittlichen Fläche von 41.100 Quadratkilometern. Diese Distrikte werden in Abbildung 1 dargestellt.
 
-Zur Untersuchung der klimatischen Bedingungen nutzen die Autoren das University of Delaware Climate Data Set von @WillmottMatsuuraCollaborators und konstruieren aus den Daten zu Niederschlag und potentieller Evapotranspiration ein Index für die Feuchtigkeit. Der Vorteil dieses Indizes ist, dass er ein besserer Indikator für landwirtschaftliches ist, als es reine Niederschlagsdaten könnten, die in anderen Forschungsarbeiten genutzt werden.
+Zur Untersuchung der klimatischen Bedingungen nutzen die Autoren das University of Delaware Climate Data Set von @WillmottMatsuuraCollaborators und konstruieren aus den Daten zu Niederschlag und potentieller Evapotranspiration ein Index für die Feuchtigkeit. Der Vorteil dieses Indizes ist, dass er ein besserer Indikator für landwirtschaftliches Potential ist, als es reine Niederschlagsdaten könnten, die in anderen Forschungsarbeiten genutzt werden.
 
-Das Ziel der Autoren, die Effekte auf Städte nach dem Industrialisierungsgrad auszudifferenzieren, wird durch die dürftige Datenlage zu Industriestandorten erschwert, insbesondere für den untersuchten Zeitraum ab 1960. Nach einem Hinweis von Alexander Moradi stoßen sie auf den *Oxford Regional Economic Atlas* (OREA) von\@adyAfricaOxfordRegional1965 , der 26 unterschiedliche produzierende Gewerbe nach Stadt und Typ kartographiert. Von diesen 26 Industrien kategoriesieren die Autoren 16 der Industrien als nicht landwirtschaftliche Produkte verarbeitend und somit modern. Diese Unterscheidung wird in der Regressionsanalyse noch bedeutend. Die Standorte der Industrien in den Zensusdistrikten ist in Abbildung 2 dargestellt. Insgesamt haben 25% der Distrikte eine Industrie und 16% eine moderne.
+Das Ziel der Autoren, die Effekte auf Städte nach dem Industrialisierungsgrad auszudifferenzieren, wird durch die dürftige Datenlage zu Industriestandorten erschwert, insbesondere für den untersuchten Zeitraum ab 1960. Nach einem Hinweis von Alexander Moradi stoßen sie auf den *Oxford Regional Economic Atlas* (OREA) von @adyAfricaOxfordRegional1965 , der 26 unterschiedliche produzierende Gewerbe nach Stadt und Typ kartographiert. Von diesen 26 Industrien kategoriesieren die Autoren 16 der Industrien als nicht landwirtschaftliche Produkte verarbeitend und somit modern. Diese Unterscheidung wird in der Regressionsanalyse noch bedeutend. Die Standorte der Industrien in den Zensusdistrikten ist in Abbildung 2 dargestellt. Insgesamt haben 25% der Distrikte eine Industrie und 16% eine moderne.
 
 Für die empirische Analyse schätzen die Autoren den Effekt des Wachstums der Feuchtigkeit auf das Stadtwachstum im Distrikt i, im Land j, im Jahr t mit folgendem Regressionsmodell $$
 u_{ijt} = \beta_0 w_{ijt} + \beta_1 X_{ij} + \beta_2 X_{ij} \ w_{ijt} + \alpha_{jt}+ \varepsilon _{ijt}
@@ -64,7 +81,7 @@ Zusammenfassend kann man sagen, dass je mehr Industrien ein Distrikt hat, desto 
 
 ### Klimaveränderung und Einkommenssteigerung
 
-In der zweiten Forschungsfrage untersuchen die Autoren, ob dieser Zuzug in Städte aufgrund von Klimaveränderungen eine Auswirkung auf das Gesamteinkommen der Stadt hat. Dafür konstruieren sie einen neuen Datensatz von Lichtdaten aus dem *U.S. Defence Meteorological Satellite Program* (DSMP) als Indikator für Einkommen, ähnlich zu einer früheren Arbeit von @hendersonMeasuringEconomicGrowth2012. Diese Lichtdaten werden bereinigt um temporäre Lichtquellen und Gasflammen und ein Index für die Lichtintensität von 0 bis 63 für die Emission von 8:30 bis 10:00 morgens extrahiert. Kombiniert werden diese Daten mit Niederschlagsdaten der *Africa Rainfall Climatology Version 2* (ARC2) von @novellaAfricanRainfallClimatology2013a .
+In der zweiten Forschungsfrage untersuchen die Autoren, ob dieser Zuzug in Städte aufgrund von Klimaveränderungen eine Auswirkung auf das Gesamteinkommen der Stadt hat. Dafür konstruieren sie einen neuen Datensatz von Lichtdaten aus dem *U.S. Defence Meteorological Satellite Program* (DSMP) als Indikator für Einkommen, ähnlich zu einer früheren Arbeit von @hendersonMeasuringEconomicGrowth2012. Diese Lichtdaten werden um temporäre Lichtquellen und Gasflammen bereinigt und ein Index für die Lichtintensität von 0 bis 63 für die Emission von 8:30 bis 10:00 morgens extrahiert. Kombiniert werden diese Daten mit Niederschlagsdaten der *Africa Rainfall Climatology Version 2* (ARC2) von @novellaAfricanRainfallClimatology2013a .
 
 Aufgrund der kürzeren Zeitspanne (1992 - 2008), für die Satellitendaten des DMSP zur Verfügung stehen, aber höheren Auflösung ändern die Autoren ihr Modell und untersuchen nun einen Paneldatensatz von 1158 Städten und ihrem jeweiligen Umkreis von 30km (*outer envelope*), die mit den Niederschlagsdaten von ARC2 kombiniert werden. Auch hier werden die Städte wieder mit der Anzahl der (modernen) Industrien aus dem OREA in Verbindung gebracht.
 

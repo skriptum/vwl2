@@ -6,6 +6,7 @@ bibliography: references.bib
 fontsize: 12pt
 linestretch: "1.5"
 link-citations: true
+# language: de-DE
 
 format:
   pdf:
