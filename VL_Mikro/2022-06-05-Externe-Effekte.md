@@ -69,6 +69,7 @@ Darstellung:
 ### Pigou Steuer
 
 mögliche Handlungsoption gegen Umweltverschmutzung
+
 $$
 G_s = p_s * s - c_s(s,x) - t*x \\
 \implies p_s = \frac{\partial c_s}{\partial s} \text{ und } t =  - \frac{\partial c_s}{\partial x}
@@ -77,7 +78,7 @@ Problem: mangelnde Information vorab über perfekten Steuersatz
 
 ### Emissionsrechte
 
-Variante I: Fischerei erhält Recht auf saubere Umwelt, verkaufbar gegen *q*
+Variante I: Fischerei erhält dRecht auf saubere Umwelt, verkaufbar gegen *q*
 $$
 G_s = p_s * s - c_s(s,x) - q*x \\
 G_f = p_f * f - c_f(f,x) + q*x \\ 
