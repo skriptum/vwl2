@@ -83,11 +83,11 @@ Merke: Unterschied zwischen Berufswahl und Berufsausübung
 ### Rechtfertigung
 
 1. **Schranken**:
-    
+   
     - Einfacher Gesetzesvorbehalt: keine strikte Trennung von Berufwahl und Ausübung
     
 2. **Schranken-Schranken**
-    
+   
     - Drei-Stufen-Theorie als Anwendung des Verhältnismäßigkeitsgrundsatzes
     1. *objektive Zulassungsvoraussetzung*: Schutz eines überragenden Gemeinschaftgutes
     1. *subjektive Zulassungsvoraussetzung*: Schutz des Berufsstandes
@@ -133,7 +133,14 @@ b) Enteignungen
 - "**finale** Entziehung von Eigentumsrechten für **öffentliche** Zwecke"
 - z.B. Grundenteignung für Straßenbau
 
+#### aus Vorlesung: Recht am eingerichteten und ausgeübten Gewerbebetrieb als Eigentum?
 
+1. Ansicht: BGH, BVerwG (nicht BVerfG):
+    - sach und Rechtsgemeinschaft eines wirtschaftlichen Unternehmens geschützt
+    - bsps. Praxis (aber nicht Gewinnaussicht!)
+2. Ansicht = nicht relevant
+
+**immer im Einzelfall betrachten!**
 
 ### Rechtfertigung
 

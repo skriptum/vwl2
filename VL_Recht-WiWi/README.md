@@ -58,7 +58,12 @@ Worum handelt es sich bei der Anforderung eines gewissen Notendurchschnitts für
 3. obj. Berufsausübungsregelung
 4. subj. Berufsausübungsregelung
 
+Was wird die zuständige Behörde grundsätzlich zunächst unternehmen, wenn sie von Tatsachen Kenntnis erlangt, die die Untersagung der Gewerbeausübung wegen Unzuverlässigkeit bei einem nicht erlaubnispflichtigen Gewerbe rechtfertigen?
 
+1. wird sogleich eine Gewerbeuntersagungsverfügung (§35 GewO) erlassen
+2. wird Verwaltungsgeriht Klage einreichen
+3. Gewerbeerlaubnis widerrufen
+4. **wird den Gewerbetreibenden anhören** (§26 GewO)
 
 ## Buch
 
