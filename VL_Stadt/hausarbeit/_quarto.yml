@@ -4,9 +4,9 @@ author: "Juliane Schubert, Marten Walk"
 number-sections: true
 bibliography: references.bib  
 fontsize: 12pt
-linestretch: "1.5"
+linestretch: "1.45"
 link-citations: true
-# language: de-DE
+lang: de
 
 format:
   pdf:
