@@ -8,9 +8,9 @@ Die beiden Fragen, die die Autoren zu beantworten versuchen, sind einerseits, ob
 
 ### Forschungsstand
 
-Die stadtökonomische Forschung unterscheidet in der Untersuchung der Faktoren, die die Urbanisierung im Wesentlichen zwischen Pull-Faktoren wie bspw. Wirtschaftliche Aussichten und Push-Faktoren wie bspw. Konflikte. 
+Die stadtökonomische Forschung unterscheidet in der Untersuchung der Faktoren, die die Urbanisierung antreiben, im Wesentlichen zwischen Pull-Faktoren wie bspw. Wirtschaftliche Aussichten und Push-Faktoren wie bspw. Konflikte.
 
-Zur Frage des Klimawandels als Push-Faktor der Urbanisierung, die die Autoren untersuchen, ist die nächstverwandte Arbeit von @barriosClimaticChangeRural2006a. Sie untersuchten die Fragestellung anhand eines Paneldatensatzes von 36 Ländern aus Subsahara-Afrika und verglichen ihre Ergebnisse mit Entwicklungsländern aus anderen Regionen. Ähnlich geht @brucknerEconomicGrowthSize2012 vor, der den Zusammenhang zwischen dem Anteil der Landwirtschaft am BIP und Niederschlag untersucht. Auch @hendersonUrbanizationSubSaharanAfrica2013 untersuchten diese Frage bereits für die Weltbank.
+Zur Frage des Klimawandels als Push-Faktor der Urbanisierung, die die Autoren untersuchen, ist die nächstverwandte Arbeit von @barriosClimaticChangeRural2006a. Sie untersuchten die Fragestellung anhand eines Paneldatensatzes von 36 Ländern aus Subsahara-Afrika und verglichen ihre Ergebnisse mit Entwicklungsländern aus anderen Regionen. Ähnlich geht @brucknerEconomicGrowthSize2012 vor, der den Zusammenhang zwischen dem Anteil der Landwirtschaft am BIP und Niederschlag untersucht. Auch @hendersonUrbanizationSubSaharanAfrica2013 untersuchten diese Frage bereits für die Weltbank.
 
 Die Autoren des aktuellen Papers erweitern diese Forschung, indem sie zwei Probleme angehen, die die genannten Arbeiten nicht adressieren konnten. Einerseits die beträchtliche inländische Heterogenität durch die Konstruktion eines regionalen und subnationalen Datensatzes. Andererseits die auf Interpolation beruhenden Bevölkerungsdaten durch Nutzen der originalen Zensusdaten. Wir gehen auf diese Daten näher Absatz 2.2 in ein.
 
@@ -39,7 +39,7 @@ Ein weiteres Alleinstellungsmerkmal der Forschungsarbeit ist, dass die Autoren d
 
 ## Vorgehensweise
 
-Um die empirischen Untersuchungen zu unterstüzen, konstruieren die Autoren ein mathematisches Modell, auf das im ersten Abschnitt kurz eingegangen wird. Anschließend analysieren wir die Vorgehensweise für beide Forschungsfragen aufgrund der unterschiedlichen Datensätze und Modelle in getrennten Abschnitten
+Um die empirischen Untersuchungen zu unterstüzen, konstruieren die Autoren ein mathematisches Modell, auf das im ersten Abschnitt kurz eingegangen wird. Anschließend analysieren wir die Vorgehensweise für beide Forschungsfragen aufgrund der unterschiedlichen Datensätze und Modelle in getrennten Abschnitten.
 
 ### Mathematisches Modell
 
@@ -148,6 +148,8 @@ Für Niederschlag und Einkommen würden wir die Ansätze von Henderson et al. ü
 Methodisch würde sich unser Ansatz darin unterscheiden, dass wir nicht mehr den Umweg über die Konstruktion von Distrikten aufgrund mangelnder subregionaler Daten gehen, sondern direkt einzelne Städte und ihr Umland untersuchen würden, ähnlich des zweiten Teils der Forschungsarbeit. Dies würde uns erlauben, eine wesentlich spezifischere Antwort auf die erste Forschungsfrage zu finden.
 
 Risiken unseres Ansatzes sind vermutlich die starke Variabilität der Niederschläge auf dem indischen Kontinent. Insbesondere der indische Monsun sorgt jährlich für immense Niederschläge, die extrem wichtig für Landwirtschaft sind. Jedoch führen diese auch regelmäßig zu Überschwemmungen, sodass analog zur Forschungsarbeit von Henderson et al. eine Robustheitsüberprüfung durchgeführt werden sollte.
+
+Weitere Fragestellungen, die sich aus dem Kontext der Forschung ergeben, sind bezüglich der Folgen für die städtischen Gebiete. Zu untersuchen wäre beispielsweise noch, wie sich Annehmlichkeiten ("amenities") infolge des starken Zuzugs verändern oder welche Auswirkungen die Industrialisierung auf die ökologischen Bedingungen haben.
 
 Wir denken, dass wir mit unserem potentiellen Forschungsansatz die Arbeit von Henderson, Storeygard und Deichmann erweitern können und weitere Belege für die von ihnen beschriebenen Mechanismen finden können. Insbesondere für Indien ist diese Forschung auch relevant, da in den nächsten Jahren weitere verstärkte Urbanisierungstendenzen zu erwarten sind und die Industrialisierung potentiell einen Ausweg bieten kann.
 

@@ -25,6 +25,7 @@
 - einstündig
 - Single-Choice-Frage
 - 30 Fragen wie die folgenden
+- [Klausur Link](https://exam.itz.uni-halle.de/login.php?target=crs_15770&client_id=exam&auth_stat=)
 
 ---
 
