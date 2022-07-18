@@ -35,3 +35,4 @@
 - Multiple Choice
 - 100 Punkte
 - 90 Minuten
+- [Link](https://exam.itz.uni-halle.de/goto.php?target=crs_15776&client_id=exam)

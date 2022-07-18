@@ -5,7 +5,7 @@
 - MRS $= \frac{MU_x}{MU_y}$
     - subjektives Substitutionswollen
     - Ableitung der Nutzenfunktion nach x/y
-- Budgetgerade: $p_1 x_1+p_2 x_2$
+- Budgetgerade: $B = p_1 x_1+p_2 x_2$
 - MRT = $-\frac{p_1}{p_2}$
     - objektives Substitutionskönnen
     - Steigung: $x_2 = -\frac{p_1}{p_2} x_1 + \frac{B}{p_2}$
@@ -46,6 +46,10 @@ Vertikaladdition von Supply: $x_m = x_1+x_2$ (umstellen der Angebotsfunktion nac
 
 ## Märkte
 
+### Gütermarkt
+
+- MRS = MRT
+
 ### Arbeitsmarkt
 
 - Einkommen $I = w \cdot t_A$ (Lohn mal Abreitszeit) 
@@ -53,6 +57,7 @@ Vertikaladdition von Supply: $x_m = x_1+x_2$ (umstellen der Angebotsfunktion nac
 - Wertgrenzprodukt Arbeit $WGP_A = p \cdot \frac{\partial x(L,K)}{\partial L}$
     - Beitrag des letzten eingestellten Mitarbeiters = *Grenzvorteil*
     - Grenznachteil = Lohnkosten
+- Optimum: $w = WGP_A$
 
 ### Kapitalmarkt
 
@@ -68,7 +73,7 @@ Budgetbeschränkung
     - Budget in Zukunftswerten: $\underbrace{(1+r) * m_1 + m_2}_{\text{Budget}} = \underbrace{(1+r) * x_{p1} + x_{p2}}_{\text{Ausgaben}}$
     - B in Gegenwartswerten: $\underbrace{m_1 + \frac{m_2}{(1+r)}}_{\text{Budget}} = \underbrace{x_{p1} + \frac{x_{p2}}{(1+r)}}_{\text{Ausgaben}}$
 - Güterkonsum in Periode 2: $x_{p2} = m_2 + (1+r)*(m_1-x_{p1})$
-- ntertemporalen Budgetgerade: $x_2 = -MRT \cdot x_1 + IPO$ 
+- intertemporalen Budgetgerade: $x_2 = -MRT \cdot x_1 + IPO$ 
     - Steigung: $- (1+r)$
     - IPO = $B(2+r)$
     - IPA = $\frac{B(2+r)}{(1+r)}$
@@ -102,3 +107,15 @@ Versicherungen
 | -------------- | -------------- | ------------------- |
 | **ohne Vers.** | $y^*$          | $y^* -L$            |
 | **mit Vers.**  | $y^*- (p*q)$   | $y^* - L+q - (p*q)$ |
+
+- $y_b$ = Einkommen im Schadensfall
+- $y_g$ = Einkommen im Fall ohne Schaden
+- Substitutionskönnen zwischen $y_b$ und $y_g$ : $\frac{1-p}{p} = MRT$
+    - Aufgeben von einem Euro -> Schadensfall $\frac{1-p}{p}$ Euro mehr
+- Substitutionswollen: $- \frac{1-\pi}{\pi} * \frac{\frac{\partial U}{\partial y_g}}{\frac{\partial U}{\partial y_b}} = MRS$
+
+Optimum: $MRS = MRT \to \frac{1-\pi}{\pi} * \frac{MU_{y_g}}{MU_{y_g}} = \frac{1-p}{p}$
+
+- bei fairer Prämie $p = \pi$: Haushalt wählt Vollversicherung
+- bei unfairer Prämie $p > \pi$: Haushalt wählt Unterversicherung
+- Bei gönnerhafter $p < \pi$: Haushalt überversichert

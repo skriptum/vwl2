@@ -10,6 +10,7 @@
     - [positive-Theorie](VL_WissArbeit/2022-06-07-positive-Theorie.md)
     - [qualitativ](VL_WissArbeit/2022-06-19-qualitativ.md)
     - [quantitativ](VL_WissArbeit/2022-06-23-quantitativ.md)
+    - [Schreibprozess](VL_WissArbeit/2022-06-28-Schreibprozess.md)
     - [Übersicht](VL_WissArbeit/README.md)
 
 - Recht für WiWi
@@ -24,6 +25,8 @@
     - [Grundrechte-II](VL_Recht-WiWi/2022-06-10-Grundrechte-II.md)
     - [Prozessrecht](VL_Recht-WiWi/2022-06-17-Prozessrecht.md)
     - [Verwaltungsrecht](VL_Recht-WiWi/2022-06-21-Verwaltungsrecht.md)
+    - [Verwaltungsrecht-II](VL_Recht-WiWi/2022-07-01-Verwaltungsrecht-II.md)
+    - [Europarecht](VL_Recht-WiWi/2022-07-08-Europarecht.md)
     - [Übersicht](VL_Recht-WiWi/README.md)
 
 - Stadtökonomie (Leipzig)
@@ -37,6 +40,7 @@
     - [Übersicht](VL_Stadt/README.md)
 
 - Mikroökonomik
+    - [Formelsammlung](VL_Mikro/2022-04-00-Formelsammlung.md)
     - [Einfuehrung](VL_Mikro/2022-04-06-Einfuehrung.md)
     - [Haushalte](VL_Mikro/2022-04-07-Haushalte.md)
     - [Effekte](VL_Mikro/2022-04-14-Effekte.md)
@@ -63,5 +67,6 @@
     - [Schaetzer](VL_Statistik2/2022-06-05-Schaetzer.md)
     - [Tests](VL_Statistik2/2022-06-07-Tests.md)
     - [Tests2](VL_Statistik2/2022-06-20-Tests2.md)
+    - [Praesentation](VL_Statistik2/2022-07-04-Praesentation.md)
     - [Übersicht](VL_Statistik2/README.md)
 

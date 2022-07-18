@@ -1,16 +1,5 @@
 # Öffentliches Recht für Wirtschaftswissenschaftler
 
-- [Einführung](VL_WissArbeit/2022-04-14-Einführung.md)
-- [Themenfindung](VL_WissArbeit/2022-04-22-Themenfindung.md)
-- [Organisation](VL_WissArbeit/2022-05-01-Organisation.md)
-- [Literaturrecherche](VL_WissArbeit/2022-05-10-Literaturrecherche.md)
-- [Literaturanalyse](VL_WissArbeit/2022-05-20-Literaturanalyse.md)
-- [Zitieren](VL_WissArbeit/2022-05-23-Zitieren.md)
-- [Oekonomik](VL_WissArbeit/2022-05-30-Oekonomik.md)
-- [Übersicht](VL_WissArbeit/README.md)
-
----
-
 - Professorin: Katja Rath
 - Zeiten:
 	- freitags 12:00-14:00 Fallbesprechungen

@@ -1,11 +1,10 @@
-title: "Has climate change driven Urbanization in Africa?"
-subtitle: "Eine Untersuchung des Artikels von Henderson et al. (2017)"
-author: "Juliane Schubert, Marten Walk"
+papersize: a4
 number-sections: true
 bibliography: references.bib  
 fontsize: 12pt
-linestretch: "1.45"
+linestretch: "1.5"
 link-citations: true
+csl: harvard-deutsch.csl
 lang: de
 
 format:
@@ -17,6 +16,6 @@ format:
     margin-bottom: 25mm
     include-before-body: tables.tex
     include-in-header: packages.tex
-    keep-tex: false
+    keep-tex: true
     
     

@@ -95,5 +95,3 @@ weiter Maßnahme neben VA im öfftl. Recht
 > **§54 VwVfG**: behörde kann statt VA einen öffentlich-rechtlichen Vertrag mit demjenigen schließen, an den sie VA richten würde
 
 
-
-**50:00**
