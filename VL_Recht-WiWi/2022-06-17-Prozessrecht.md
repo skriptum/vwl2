@@ -28,26 +28,26 @@ end
 
 ### Verfahren vor dem BVerfG
 
-- Verfassungsbeschwerde nach `Art. 93 I 4` (jedermann):
+- Verfassungsbeschwerde nach `§93 I 4a BVerfGG` (jedermann):
     - Öffentliche Gewalt greift in Grundrechte ein
-- konkrete Normenkontrolle `Art. 100`: 
+- konkrete Normenkontrolle `§100`: 
     - Überprüfung eines Gesetzes nach Richtervorschlag 
-- abstrakte Normenkontrolle `Art. 93 I 2`: 
+- abstrakte Normenkontrolle `§93 I 2`: 
     - Überprüfung eines Gesetzes nach Aufruf durch Parlamente
-- Organstreit `Art. 93 I 1`: 
+- Organstreit `§93 I 1`: 
     - zwischen staatlichen Stellen
-- Bund-Länder Streit `Art. 93 I 4`:
+- Bund-Länder Streit `§93 I 4`:
     - Kompetenzabrenzung zwischen BUndesländern spezifisch
 
 
 
 formale Zulässigkeit:
 
-- Zuständigkeit des BVerfG
-- Beschwerdefähigkeit
-- Verfahrensfähigkeit
-- Beschwerdegegenstand
-- Beschwerdebefugnis
+- Zuständigkeit des BVerfG (nach oben genannten Kriterien)
+- Beschwerdegegenstand (Akt des Staats gegen GR)
+- Beschwerdefähigkeit (grundrechtsberechtigt)
+- Beschwerdebefugnis (man selber wurde in GR verletzt)
 - Rechtswegerschöpfung (Subsidiaritätsprinzip)
+- Verfahrensfähigkeit (Eltern für Kinder etc)
 - Frist von 1 Jahr (Gesetz)
 

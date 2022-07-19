@@ -15,7 +15,7 @@
 
 |                       |    öffentliches Recht              |    Strafrecht          |    Zivilrecht                        |
 |:----------------------|:-----------------------------------|:-----------------------|:-------------------------------------|
-|    *Involvierte*      |    Staat - Bürger / juris. Person  |    Staat - Bürger      |    Bürger - Bürger<br>               |
+|    *Involvierte*      |    Staat - Bürger / juris. Person  |    Staat - Bürger      |    Bürger - Bürger               |
 |    *Handlungsform*    |    subordinativ                    |    subordinativ        |    Augenhöhe                         |
 |    *Handlungsart*     |    Verwaltungsakt, Verordnung      |    Strafe, Geldbuße    |    Vertrag, Kündigung (einseitig)    |
 | *Beispiel*            | VwVfG                              | StGB                   | BGB                                  |

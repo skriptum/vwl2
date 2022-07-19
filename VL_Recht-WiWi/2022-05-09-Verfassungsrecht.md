@@ -22,7 +22,7 @@ definierender Paragraf:
 >
 > (3) Rechtsprechung folgt verfassungsmäßiger Ordnung
 
-daraus entstehende Prinzipien
+ daraus entstehende Prinzipien
 
 1. Republikprinzip
 2. Sozialstaatsprinzip

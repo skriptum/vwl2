@@ -26,7 +26,7 @@ wichtigste Institutionen
 - Eur. Parlament
 - Eur. Kommision
 
-![[2022-07-08_11-39.jpg]]
+![2022-07-08_11-39.jpg](../images/2022-07-08_11-39.jpg)
 
 ### EuGH
 definiert in `Art. 267 AEUV`, entscheidet über:

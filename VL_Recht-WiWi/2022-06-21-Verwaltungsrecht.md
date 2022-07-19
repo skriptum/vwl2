@@ -29,7 +29,7 @@ Beispiel: Bußgeldbescheid
 - Festlegung konkreter Rechte / Pflichten im Einzelfall
     - bsp. Fällen eins Baumes in deinem Garten
 - Bestandskraftfunktion
-    - wenn nicht rechzeitig Widerspruch 
+    - wenn nicht rechzeitig Widerspruch, dann Geltung
 - Vollstreckungsfunktion
     - wenn nicht Baum gefällt, dann gibts Schläge
 
@@ -86,12 +86,11 @@ Ermessensfehler:
 - Ermessensfehlgebrauch
     - Verhältnismäßigket: einmaliger Verkehrssünder muss zur Verkehrserziehung
 - Ermessensreduzierung auf Null 
-    - es ist offensichtlich, dass gehandelt werden müsste (bspw. 10 Polizisten gegen 2 randalierende Jugendliche), da gibts keinen Spielraum
+    - es ist offensichtlich, dass gehandelt werden müsste (bspw. Erfrierender wird von Polizist ignoriert), da gibts keinen Spielraum
 
 ## Öffentlich rechtlicher Vertrag
 
 weiter Maßnahme neben VA im öfftl. Recht
 
 > **§54 VwVfG**: behörde kann statt VA einen öffentlich-rechtlichen Vertrag mit demjenigen schließen, an den sie VA richten würde
-
 
