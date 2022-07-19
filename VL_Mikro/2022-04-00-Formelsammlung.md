@@ -70,7 +70,7 @@ Budgetbeschränkung
     - $x_{p2}, x_{p1}$ = Güter in Periode 1/2
     - $m_1,m_2$ = Einkommen in Periode 1 / 2
     - Preise der Güter sind konstant und gleich 1
-    - Budget in Zukunftswerten: $\underbrace{(1+r) * m_1 + m_2}_{\text{Budget}} = \underbrace{(1+r) * x_{p1} + x_{p2}}_{\text{Ausgaben}}$
+    - Budget in Zukunftswerten: $\overbrace{(1+r) * m_1 + m_2}^{\text{Budget}} = \overbrace{(1+r) * x_{p1} + x_{p2}}^{\text{Ausgaben}}$
     - B in Gegenwartswerten: $\underbrace{m_1 + \frac{m_2}{(1+r)}}_{\text{Budget}} = \underbrace{x_{p1} + \frac{x_{p2}}{(1+r)}}_{\text{Ausgaben}}$
 - Güterkonsum in Periode 2: $x_{p2} = m_2 + (1+r)*(m_1-x_{p1})$
 - intertemporalen Budgetgerade: $x_2 = -MRT \cdot x_1 + IPO$ 
@@ -119,3 +119,15 @@ Optimum: $MRS = MRT \to \frac{1-\pi}{\pi} * \frac{MU_{y_g}}{MU_{y_g}} = \frac{1-
 - bei fairer Prämie $p = \pi$: Haushalt wählt Vollversicherung
 - bei unfairer Prämie $p > \pi$: Haushalt wählt Unterversicherung
 - Bei gönnerhafter $p < \pi$: Haushalt überversichert
+
+
+
+## Monopole
+
+- Gewinnoptimum: $Grenzkosten = Grenzerloese$
+- Mengenfixierung: $G(x) = p(X) * X - K(X)$
+- Preisfixierung: $G(p) = p \cdot X(p) - K(X\small(p) \big)$
+- Amoroso Robinson Fomel:  $p = \frac{\overbrace{\frac{\partial K}{\partial X}}^{MC} }{ 1- \frac{1}{|\varepsilon_{x,p|}}}$
+    - je niedriger Elastizität => höhere Monopolpreisaufschlag
+    - wenn Elastizität unendlich; Monopolpreis = Grenzkosten = Polypolbedingung
+- 
