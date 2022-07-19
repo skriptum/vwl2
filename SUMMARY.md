@@ -14,6 +14,7 @@
     - [Übersicht](VL_WissArbeit/README.md)
 
 - Recht für WiWi
+    - [Zusammenfassung](VL_Recht-WiWi/2022-04-00-Zusammenfassung.md)
     - [Einfuehrung](VL_Recht-WiWi/2022-04-03-Einfuehrung.md)
     - [Rechtsgebiete](VL_Recht-WiWi/2022-04-15-Rechtsgebiete.md)
     - [Subsumtion](VL_Recht-WiWi/2022-04-22-Subsumtion.md)
