@@ -81,7 +81,7 @@ langfristig:
 - Annahme konstanter Skalenerträge
     - keine Economies of Scale
 
-## Produzentenrente
+## Produzentenrente 
 
 analog zu Konsumentenrente
 

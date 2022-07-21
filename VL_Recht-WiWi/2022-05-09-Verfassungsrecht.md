@@ -107,7 +107,8 @@ Gewährleistung von Freiheit und Gerechtigkeit im staatlichen Bereich
 
 Abwägungsprozess
 
-1. legitimer Zweck
+1. legitimer Zweck / Mittel
 2. Geeignetheit
 3. Erforderlichkeit
 4. Angemessenheit
+

@@ -10,4 +10,4 @@
 
 - 27.07.22 08:15
 - 90 Minuten
-- 
+- [Link](https://exam.itz.uni-halle.de/goto.php?target=crs_15881&client_id=exam)
