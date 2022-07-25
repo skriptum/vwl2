@@ -2,38 +2,32 @@
 
 Zusammenfassung für das Modul Statistik II 
 
-# Table of contents
 
-- [Statistik](#statistik)
-- [Table of contents](#table-of-contents)
-- [Wahrscheinlichkeiten](#wahrscheinlichkeiten)
+- [**Wahrscheinlichkeiten**](#wahrscheinlichkeiten)
   - [Mengen](#mengen)
   - [Laplace-Wahrscheinlichkeit](#laplace-wahrscheinlichkeit)
   - [bedingte Wahrscheinlichkeit](#bedingte-wahrscheinlichkeit)
   - [totale Wahrscheinlichkeit](#totale-wahrscheinlichkeit)
   - [Satz von Bayes](#satz-von-bayes)
-  - [Unabhängigkeit](#unabhngigkeit)
-- [Stichproben](#stichproben)
-- [Zufallsvariabeln (Eindimensional)](#zufallsvariabeln-eindimensional)
+  - [Unabhängigkeit](#unabhängigkeit)
+- [**Stichproben**](#stichproben)
+- [**Zufallsvariabeln** (Eindimensional)](#zufallsvariabeln-eindimensional)
   - [Dichte- und Verteilungsfunktion](#dichte--und-verteilungsfunktion)
-    - [Berechnung der Verteilungsfunktion](#berechnung-der-verteilungsfunktion)
   - [Rechnen mit der Verteilungsfunktion](#rechnen-mit-der-verteilungsfunktion)
-    - [Modus](#modus)
-    - [Erwartungswert E(X)](#erwartungswert-ex)
-    - [Quantile](#quantile)
-    - [Varianz + Standardabweichung](#varianz--standardabweichung)
-- [Zufallsvariablen (mehrdimensional)](#zufallsvariablen-mehrdimensional)
+- [**Zufallsvariablen** (mehrdimensional)](#zufallsvariablen-mehrdimensional)
   - [bedingte Dichte](#bedingte-dichte)
   - [stochastische Unabhängigkeit](#stochastische-unabhngigkeit)
   - [Kovarianz](#kovarianz)
-- [Verteilungen](#verteilungen)
+- [**Verteilungen**](#verteilungen)
   - [Diskrete Verteilungen](#diskrete-verteilungen)
-    - [Bernoulli Verteilung](#bernoulli-verteilung)
-    - [Binomialverteilung](#binomialverteilung)
-    - [hypergeometrische Verteilung](#hypergeometrische-verteilung)
-    - [Poisson Verteilung](#poisson-verteilung)
+      - [Bernoulli Verteilung](#bernoulli-verteilung)
+      - [Binomialverteilung](#binomialverteilung)
+      - [hypergeometrische Verteilung](#hypergeometrische-verteilung)
+      - [Poisson Verteilung](#poisson-verteilung)
   - [Normalverteilung](#normalverteilung)
-
+    - [Standardnormalverteilung](#standardnormalverteilung)
+    - [Rechnungen](#rechnungen)
+- [**Schätzen**](#schätzen)
 
 
 # Wahrscheinlichkeiten
@@ -66,7 +60,7 @@ Berechnung: $P(A|B) = \frac{P (A\cap B)}{P(B)}$
 
 ---
 
-Beispiel: Porschefahrer und Arschlöcher
+Beispiel: Porschefahrer: 10% der Bevölkerung sind Porschefahrer und 50% von denen sind Arschlöcher (isso)
 
 ![2022-07-24_13.38.09](../images/2022-07-24_13.38.09.jpg)
 
@@ -109,7 +103,7 @@ P(B|A) = \frac{0.5 \cdot 0.1 }{0.095} \approx 53\%
 $$
 => obwohl Porschefahrer nur 10% der Bevölkerung ausmachen, stellen sie 53% der Arschlöcher 
 
-graphik der Rückwärtsanalyse
+Graphik der Rückwärtsanalyse
 
 ![Graphisch veranschaulicht](../images/2022-07-24_19.21.36.jpg)
 
@@ -131,6 +125,8 @@ $0.05 \neq 0.0095$ : ist nicht zufällig!
 
 
 # Stichproben
+
+Wir wollen aus den Eigenschaften einer großen Menge die Eigenschaften einer Stichprobe benennen: bspw. wir wissen alles über Würfel, wie wahrscheinlich ist dann eine Stichprobe, bei der 3 Mal hintereinander eine 6 gewürfelt wird.
 
 wenn Ergebnissmenge eines Experiments nicht bekannt => **Stichproben**
 
@@ -427,4 +423,83 @@ Falls $\mu = 0$ und $\sigma^2 = 1 \to$ N(0,1) = *Standardnormalverteilung*
 Dichte $\phi(z)$ und Verteilungsfunktion $\Phi(z)$ der SNV
 
 ![2022-07-25_14.48.01](../images/2022-07-25_14.48.01.jpg)
+
+praktisch für: wir haben eine Verteilung, transformieren sie zu SNV, berechnen was wir berechnen wollen und transformieren zurück
+
+### Rechnungen
+
+**Wahrscheinlichkeiten**
+
+Wahrscheinlichkeitsrechnungen bei der Normalverteilung: Wie hoch ist die W., dass Wert x kleiner als 1 ist?
+
+![2022-07-25_17.20.52](../images/2022-07-25_17.20.52.jpg)
+
+Rechnerisch: mit *R*, bspw. [hier](https://www.online-ide.com/online_r_compiler)
+
+```R
+p = 1 # der gesuchte Wert
+m = 0 # das mu der Verteilung
+sd = 1 # die Standardabweichung
+# Berechnung der Wahrscheinlichkeit mit pnorm()
+pnorm(p,m,sd)
+```
+
+Output:
+
+```R
+0.8413447
+```
+
+wenn nicht unterhalb der Wert gesucht wird, sondern oberhalb:
+
+```R
+pnorm(p,m,sd,lower.tail=FALSE) 
+```
+
+**Quantile:**
+
+bei welchem Wert werden 69 % der Ereignisse abgedeckt?
+
+![2022-07-25_17.29.38](../images/2022-07-25_17.29.38.jpg)
+
+Rechnerisch:
+
+```R
+q = 0.69 # der gesuchte Wert
+m = 0 # Mittelwert mu der Verteilung
+sd = 1 # die Standardabweichung
+# Berechnung der Wahrscheinlichkeit mit pnorm()
+qnorm(p,m,sd)
+```
+
+Output
+
+```
+0.49585
+```
+
+
+
+# Schätzen
+
+Wir wollen aus den Eigenschaften einer Stichprobe Informationen über die Grundgesamtheit in Erfahrung bringen, bspw. über Würfelwürfe etwas über die Gezinktheit eines Würfels = **induktive Statistik**
+
+Beispiel: erwarteter Beliebtheitsgrad FDP  $E(\ \text{Bel}_{FDP} \ )$, anhand Stichprobe aus historischen Daten
+
+Methoden zu Bsp.:
+
+- **Punktschätzung:** beste Vermutung für Wert des Parameters in Grundgesamtheit
+    - FDP wird nicht beliebt sein, nur 7%:
+    - $E(\ \text{Bel}_{FDP} \ ) = 0.07$ 
+- **Intervallschätzung:** in welchem Bereich liegt ein Parameter?
+    - Ich bin mir zu 95% sicher, dass seine Beliebtheit zwischen 5 und 10 % ist
+    - $0.05 \le E(\ \text{Bel}_{FDP} \ ) \le 0.1$
+- **Test:** Treffen bestimmte Hypothesen zu?
+    - Ich bin mir zu 99% sicher, dass meine Behauptung $E(\ \text{Bel}_{FDP} \ ) = 0.07$ stimmt
+
+=> hoffen wir mal wa
+
+## Punktschätzung
+
+
 

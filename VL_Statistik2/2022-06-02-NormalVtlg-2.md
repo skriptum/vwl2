@@ -33,7 +33,7 @@ q = 0.691 # der gesuchte Wert
 m = 5 # das mu der Verteilung
 sd = 2 # die Standardabweichung
 # Berechnung der Wahrscheinlichkeit mit pnorm()
-pnorm(p,m,sd) 
+pnorm(q,m,sd) 
 # => 5.999
 ```
 
