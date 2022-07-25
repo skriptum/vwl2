@@ -165,4 +165,5 @@ im Optimum: $MRS = MRT \to \frac{1-\pi}{\pi} * \frac{MU_{y_g}}{MU_{y_g}} = \frac
 - Amoroso Robinson Fomel:  $p = \frac{\overbrace{\frac{\partial K}{\partial X}}^{MC} }{ 1- \frac{1}{|\varepsilon_{x,p|}}}$
     - je niedriger Elastizität => höhere Monopolpreisaufschlag
     - wenn Elastizität unendlich; Monopolpreis = Grenzkosten = Polypolbedingung
+    - umgestellt nach $\epsilon = \frac{1}{1- \frac{MC}{p}}$
 
