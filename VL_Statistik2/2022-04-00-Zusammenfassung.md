@@ -428,7 +428,27 @@ praktisch für: wir haben eine Verteilung, transformieren sie zu SNV, berechnen 
 
 ### Rechnungen
 
-**Wahrscheinlichkeiten**
+**Wahrscheinlichkeit**
+
+$\phi(x) = ?$ also Höhe der Normalverteilung an bestimmten X-Wert:
+
+Rechnerisch: mit *R*, bspw. [hier](https://www.online-ide.com/online_r_compiler)
+
+```R
+x = 1 # das x
+m = 0 # das mu der Verteilung
+sd = 1 # die Standardabweichung
+# Berechnung der Wahrscheinlichkeit mit pnorm()
+dnorm(x,m,sd)
+```
+
+Output:
+
+```R
+0.2419
+```
+
+**kleiner als: Wahrscheinlichkeiten**
 
 Wahrscheinlichkeitsrechnungen bei der Normalverteilung: Wie hoch ist die W., dass Wert x kleiner als 1 ist?
 
@@ -497,9 +517,161 @@ Methoden zu Bsp.:
 - **Test:** Treffen bestimmte Hypothesen zu?
     - Ich bin mir zu 99% sicher, dass meine Behauptung $E(\ \text{Bel}_{FDP} \ ) = 0.07$ stimmt
 
-=> hoffen wir mal wa
+hoffen wir mal ne :grin:
 
-## Punktschätzung
+## Punktschätzer
+
+- Suchen Parameter $\theta$ der Stichprobe $X_1,...,X_n$
+- Punktschätzer ist Funktion $t(X_1,...,X_n)$
+- Anwenden dieser Funktion auf Gesamtheit
+
+Erwartungswertschätzer = simpler Durchschnitt $\bar{X}$
+
+Varianzschätzer:
+
+1. $\tilde{S}^2 = \frac{1}{n} \sum (X_i-X_n)  \text{ mit } E(\bar{S}^2) = \frac{n-1}{n} \sigma^2$
+2. korrigierter Schätzer: $S^2 = \frac{1}{n-1} \sum (X_i-X_n) \text{ mit } E(S^2) = \sigma^2$
+
+## Intervallschätzer
+
+Interesse ist Angabe eines Intervalls, das den Parameter enthält
+
+Wahrscheinlichkeit $\alpha$ ($0 \le \alpha \le 1$) gegeben (genannt *Irrtumswahrscheinlichkeit*)
+
+**Standardabweichung der Grundgesamtheit bekannt:**
+
+Erinnerung: Standardabweichung $\sigma = \sqrt{Varianz: \ \sigma^2}$
+
+```R
+n <- 39       # Stichprobengröße
+mean <- 7.77  # Stichprobenmittel
+sd <- 0.46     # Stichprobenabweichung (Schätzung)
+a <- 0.05     # alpha
+
+error <- qnorm(1-a/2)*sd/sqrt(n) # Fehler berechnen mit Normalv.
+high <- mean + error
+low <- mean - error
+
+print(c(low, high)) # untere Grenze, obere Grenze
+```
 
 
+
+**Varianz unbekannt, dafür Standardabweichungschätzung der Stichprobe:**
+
+nur bei $n\ge 30$, weil erst dann t-Verteilung = SNV
+
+```R
+n <- 39       # Stichprobengröße
+mean <- 7.77  # Stichprobenmittel
+s <- 0.46     # Stichprobenabweichung (Schätzung)
+a <- 0.05     # alpha
+
+margin <- qt(1-a/2,df=n-1)*s/sqrt(n) # Konfidenzfehler aus t-Verteilung
+high <- mean + margin
+low <- mean - margin
+
+print(c(low, high)) # untere Grenze, obere Grenze
+```
+
+## Tests
+
+wir haben eine Hypothese und eine derzeitige Meinung
+
+- Nullhypothese $H_0$: "*die Erde ist eine Scheibe*"
+- Alternativhypothese $H_1$: *"Erde hat Kugelgestalt"*
+
+=> Testproblem: $H_0$ vs. $H_1$
+
+wir bauen Entscheidungsregel, ab der wir $H_0$ verwerfen
+
+|                          | $H_0$ ist real     | $H_1$ ist real     |
+| ------------------------ | ------------------ | ------------------ |
+| $H_0$ **wird verworfen** | Fehler 1. Art      | :white_check_mark: |
+| $H_0$ **bleibt**         | :white_check_mark: | Fehler 2. Art      |
+
+Entscheidungsregel sagt, dass Fehler 1. Art nur mit Wahrscheinlichkeit $\alpha$ passieren soll
+
+Arten von Hypothesen:
+
+| Test         | Hypothese $H_1$ | Gegenhypothese $H_1$ |
+| ------------ | --------------- | -------------------- |
+| linksseitig  | $\mu \ge \mu_0$ | $\mu < \mu_0$        |
+| rechtsseitig | $\mu \le \mu_0$ | $\mu > \mu_0$        |
+| Zweiseitig   | $\mu = \mu_0$   | $\mu \ne \mu_0$      |
+
+---
+
+**Beispiel:**
+
+- Bäcker behauptet, seine Brötchen sind im Schnitt schwerer/exakt 50 Gramm
+- ich behaupte, dass die Brötchen kleiner als 50 Gramm sind
+
+Aufbau des Tests: wir suchen realen Durchschnitt $\mu$
+
+- Brötchengewicht X
+- Annahme: Brötchen sind normalverteilt $X \sim N(\mu, \sigma^2)$
+- $H_0: \mu \ge 50$ vs. $H_1: \mu < 50$ (unzufrieden)
+
+Durchführung:
+
+- wir ziehen Stichgröße vom Umfang n $X_1, ...,X_n$
+- $\bar{X}$ = Durchschnittsgewicht = Prüfgröße
+
+Berechnung: (mit beispielhaften Werten)
+
+- $\sigma^2 = 1.44$
+- $\alpha = 5\%$
+- $\bar{X} = 51$
+- $S = 2.5$
+
+Entscheidungsregel: (aus Formelsammlung: t-Test, linksseitig)
+
+---
+
+**gauß-test** in R
+
+maschine mit Varianz = 0.5
+
+Stichprobe mit 36 Schrauben, Durchschnitt=9.7, Varianz= 0.5
+
+- $H_0: \mu = 10$  (Schrauben sind im Durchschnitt 10 cm lang)
+- $H_1: \mu \ne 10$ (nein sind sie nicht)
+
+```R
+library(compositions)
+# x <- c() # wenn reale Daten
+x <- rnorm(36,9.7, 0.5) # oder erstellen (n,mean,sd)
+
+Gauss.test(x, y = NULL,
+       mean = 10, # Nullhypothese über mu
+       sd = 0.5, # die Varianz der Grundgesamtheit
+       alternative =  "two.sided") # "two.sided", "less", "greater"
+```
+
+Output:
+
+```R
+data:  x
+T = 9.8378, mean = 10, sd = 1, p-value = 0.05185
+alternative hypothesis: two.sided
+```
+
+p > 0.05 = schlechte $H_0$ = $H_1$ wird angenommen.
+
+Maschine muss rekalibriert werden, um Durchschnitt von 10cm wiederzubekommen. 
+
+**t-test** in R
+
+```R
+# x <- c() # wenn reale Daten der Stichprobe
+x <- rnorm(29,85.74, 3.43) # oder erstellen (n,mean,sd)
+
+t.test(x, y = NULL,
+       alternative =  "two.sided", # "two.sided", "less", "greater"
+       mu = 84.1,
+       conf.level = 0.95,)
+
+# Output: true mean is not equal to 84.1 
+```
 
