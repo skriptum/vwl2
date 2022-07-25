@@ -17,7 +17,7 @@ Beispiel Wetter
     - $B_1$ : es regnet
     - $B_2$ : es regnet nicht
 
-Notation: $P(A) = P(A \cap B_{1)}+ P(A \cap B_{2})$
+Notation: $P(A) = P(A \cap B_{1})+ P(A \cap B_{2})$
 
 ## Totale Wahrscheinlichkeit
 
