@@ -57,6 +57,7 @@
     - [Übersicht](VL_Mikro/README.md)
 
 - Statistik II
+    - [Zusammenfassung](VL_Statistik2/2022-04-00-Zusammenfassung.md)
     - [Einfuehrung](VL_Statistik2/2022-04-05-Einfuehrung.md)
     - [Wahrscheinlichkeit](VL_Statistik2/2022-04-15-Wahrscheinlichkeit.md)
     - [Stichproben](VL_Statistik2/2022-04-25-Stichproben.md)
