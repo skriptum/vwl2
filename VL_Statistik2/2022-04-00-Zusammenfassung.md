@@ -188,6 +188,19 @@ bei stetigen Variablen muss die Verteilungsfunktion aufwendiger berechnet werden
 
 Beispielrechnung:  $P(X \le x) = F(x) = \int_{-\infty}^x f(t)dt$
 
+- bei Dichtefunktion mit Grenzen: $f(x) = x\ ,\  a\le x \le b$
+- Verteilungsfunktion: 
+  $$
+  F(x) = \begin{cases} 
+    0 & x < a \\
+    \int_a^b x & a \le x \le b \\
+    1 & x > b
+    \end{cases}
+  $$
+
+und der Test $P(x \le X) = \int_a^x f(x)$
+
+
 ## Rechnen mit der Verteilungsfunktion 
 
 Würfelwürfe zwischen 2 und einschließlich 5: 
@@ -334,6 +347,21 @@ Also: Kovarianz kleiner 0 => große Werte von x hängen mit kleinen Werten von y
 
 Berechnung: **ist scheiße!**
 
+Beispieltabelle: ![2022-07-26_16.26.24](../images/2022-07-26_16.26.24.jpg)
+
+Vorgehen: (diskret)
+
+- Randhäufigkeiten bestimmen: bspw. für X: 200/320 und 120/320
+- bedingte Häufigkeiten bestimmen: Zelle / Gesamtergebnis: 40/320
+- dann alle Zellen mit bedingten Häufigkeiten * Randhäufigkeit X * Randhäufigkeit Y
+- und dann alles aufsummieren 
+
+Vorgehen: (stetig)
+
+- Randdichte von X bestimmen: $f_X(x)=\int_a^b f(x,y) dy$ = Dichtefunktion nach Y integrieren
+- dann $E(X) = \int_a^b x  f_X(x)$= mit x multipliziert integrieren
+- Dann $E(X Y) =  \int \int x \cdot y \cdot f(x,y) \ dx dy$
+
 ---
 
 **Beispiel:**
@@ -459,7 +487,7 @@ Rechnerisch: mit *R*, bspw. [hier](https://www.online-ide.com/online_r_compiler)
 ```R
 p = 1 # der gesuchte Wert
 m = 0 # das mu der Verteilung
-sd = 1 # die Standardabweichung
+sd = 1 # die Standardabweichung (Wurzel der Varianz!)
 # Berechnung der Wahrscheinlichkeit mit pnorm()
 pnorm(p,m,sd)
 ```
@@ -531,6 +559,27 @@ Varianzschätzer:
 
 1. $\tilde{S}^2 = \frac{1}{n} \sum (X_i-X_n)  \text{ mit } E(\bar{S}^2) = \frac{n-1}{n} \sigma^2$
 2. korrigierter Schätzer: $S^2 = \frac{1}{n-1} \sum (X_i-X_n) \text{ mit } E(S^2) = \sigma^2$
+
+Beispielaufgabe Schätzer: drei Melonen
+
+- $t_1(X_1,X_2,X_3)= \frac{3}{6}(X_1+2 X_2 - X_3)$
+- $t_2(X_1,X_2,X_3)= \frac{2}{8}(X_1+5 X_2 + X_3)$
+
+Erwartungswerte der Schätzer: ersetzen $E(X) = \mu$
+$$
+E(t_1) = E[\frac{3}{6}(X_1+2 X_2 - X_3)] \\
+= \frac{3}{6}(u+2u-u) = \frac{6}{6}u = u \\
+\\
+E(t_2) = E[\frac{2}{8}(X_1+5 X_2 + X_3)] \\
+= \frac{2}{8}(u+5u+u) = 2/8 \cdot(7u) = 1.75 u
+$$
+Varianz der Schätzer: alleinstehende $Var(X)  = \sigma^2$(alles was rauskommt quadrieren!) 
+$$
+Var(t_1) = Var[\frac{3}{6}(X_1+2 X_2 - X_3)] \\
+= \frac{3}{6}^2 \Big( 1^2 Var(X_1)+ 2^2 Var(X_1) + (-1)^2 Var(X_3) \Big) \\
+= \frac{9}{36} (1+4+2) \cdot Var(X) = 1.5 \cdot \sigma^2
+$$
+
 
 ## Intervallschätzer
 
