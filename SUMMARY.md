@@ -11,6 +11,7 @@
     - [qualitativ](VL_WissArbeit/2022-06-19-qualitativ.md)
     - [quantitativ](VL_WissArbeit/2022-06-23-quantitativ.md)
     - [Schreibprozess](VL_WissArbeit/2022-06-28-Schreibprozess.md)
+    - [Praesentation](VL_WissArbeit/2022-07-04-Praesentation.md)
     - [Übersicht](VL_WissArbeit/README.md)
 
 - Recht für WiWi
@@ -69,6 +70,5 @@
     - [Schaetzer](VL_Statistik2/2022-06-05-Schaetzer.md)
     - [Tests](VL_Statistik2/2022-06-07-Tests.md)
     - [Tests2](VL_Statistik2/2022-06-20-Tests2.md)
-    - [Praesentation](VL_Statistik2/2022-07-04-Praesentation.md)
     - [Übersicht](VL_Statistik2/README.md)
 

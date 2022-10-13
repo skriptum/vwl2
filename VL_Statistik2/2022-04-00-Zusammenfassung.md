@@ -335,7 +335,7 @@ Beispiel in erster Zeile, erster Spalte: $f(x=0 | \underbrace{y=0}_{gegeben})= \
 
 gegeben, wenn $f(x,y) = f_X(x) \cdot f_Y(y)$
 
-im Beispiel: $f(0,0)\to \underbrace{\frac{1}{16} \neq \frac{1}{8} \cdot \frac{1}{16}}_{nicht \ unabh.} \gets f_X(x) \cdot f_Y(y $
+im Beispiel: $f(0,0)\to \underbrace{\frac{1}{16} \neq \frac{1}{8} \cdot \frac{1}{16}}_{nicht \ unabh.} \gets f_X(x) \cdot f_Y(y)$
 
 ## Kovarianz
 
@@ -466,7 +466,7 @@ Rechnerisch: mit *R*, bspw. [hier](https://www.online-ide.com/online_r_compiler)
 x = 1 # das x
 m = 0 # das mu der Verteilung
 sd = 1 # die Standardabweichung
-# Berechnung der Wahrscheinlichkeit mit pnorm()
+# Berechnung der Höhe mit pnorm()
 dnorm(x,m,sd)
 ```
 
@@ -723,4 +723,12 @@ t.test(x, y = NULL,
 
 # Output: true mean is not equal to 84.1 
 ```
+
+
+
+praktische Sachen für Prüfung
+
+- Bei Entscheidungen gegen H0 und damit für H1 spricht man von einem signifikanten
+    Ergebnis
+- Konfidenznivau + Signifikanzniveau = 100%
 
