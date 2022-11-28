@@ -153,6 +153,7 @@ Grenzproduktivitäten:
 - des Kapitals: $MP_K = \frac{\partial x}{\partial K} = \frac{1}{2} \sqrt{\frac{L}{K}}$
 
 ---
+
 Steigung der Isoquante
 $$
 Funktion: K = \frac{x^2}{L} \\
